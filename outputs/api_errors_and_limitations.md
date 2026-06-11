@@ -2,26 +2,16 @@
 
 ## General limitations
 
-- Each source determines its own most recent available data; years will not necessarily match across sources.
-- ACS data requests require a valid Census API key in this environment.
-- The Census API key is masked in logs and metadata.
-- ACS latest-year detection probes variables.json and avoids future-year retry spam.
-- ACS URLs are built without double slashes.
-- ACS requests are chunked to prevent missing data from the Census API variable limit.
-- ACS MOE variables are optional; unavailable MOE variables are omitted without failing the indicator.
-- ACS special values such as -555555555 are converted to blank/null.
-- ACS estimates are period estimates and include margins of error when available.
-- ACS calculated percentages do not include derived margins of error.
-- ACS sum margins of error are approximated using square root of sum of squared MOEs.
-- PUBLIC_COVERAGE_RATE is not Medicaid-only coverage.
-- MEDICAID_COVERAGE_RATE is left as a placeholder unless a Medicaid-specific source is connected.
-- BLS LAUS annual average is preferred. If M13 is not returned, the script calculates a complete-year monthly average; if that is unavailable, it uses the latest monthly value and labels it.
-- CDC PLACES values are modeled estimates.
-- Internal and qualitative data cannot be filled from government APIs.
+- HUD PIT now always emits one annual row for each requested HUD year for total, sheltered, and unsheltered homelessness.
+- When HUD CoC parsing fails or no CoC codes are supplied, the script uses state-level fallback rows when possible.
+- Medicaid coverage is computed from ACS C27007 Medicaid/means-tested public coverage, not from public coverage.
+- HRSA, SAMHSA, and NCES are now automated best-effort pulls. Review parsed rows before publication.
+- Internal client, utilization, staffing, and qualitative data cannot be pulled from government APIs.
 
 ## Run notes
 
-No run notes captured.
+- Could not read HUD AHAR page to discover PIT file links.
+- SAMHSA exact county search requires FindTreatment county ID or coordinates; using state search with county-name filtering.
 
 ## Captured errors
 

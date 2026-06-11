@@ -1,0 +1,1454 @@
+{
+  "status": "REQUEST_SUCCEEDED",
+  "responseTime": 107,
+  "message": [],
+  "Results": {
+    "series": [
+      {
+        "seriesID": "LAUCN170310000000003",
+        "data": [
+          {
+            "year": "2025",
+            "period": "M12",
+            "periodName": "December",
+            "value": "4.6",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2025",
+            "period": "M11",
+            "periodName": "November",
+            "value": "4.9",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2025",
+            "period": "M10",
+            "periodName": "October",
+            "value": "-",
+            "footnotes": [
+              {
+                "code": "X",
+                "text": "Data unavailable due to the 2025 lapse in appropriations."
+              }
+            ]
+          },
+          {
+            "year": "2025",
+            "period": "M09",
+            "periodName": "September",
+            "value": "4.3",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2025",
+            "period": "M08",
+            "periodName": "August",
+            "value": "4.7",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2025",
+            "period": "M07",
+            "periodName": "July",
+            "value": "5.0",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2025",
+            "period": "M06",
+            "periodName": "June",
+            "value": "5.0",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2025",
+            "period": "M05",
+            "periodName": "May",
+            "value": "4.6",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2025",
+            "period": "M04",
+            "periodName": "April",
+            "value": "4.7",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2025",
+            "period": "M03",
+            "periodName": "March",
+            "value": "5.0",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2025",
+            "period": "M02",
+            "periodName": "February",
+            "value": "5.3",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2025",
+            "period": "M01",
+            "periodName": "January",
+            "value": "5.1",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2024",
+            "period": "M12",
+            "periodName": "December",
+            "value": "4.5",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2024",
+            "period": "M11",
+            "periodName": "November",
+            "value": "5.1",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2024",
+            "period": "M10",
+            "periodName": "October",
+            "value": "5.4",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2024",
+            "period": "M09",
+            "periodName": "September",
+            "value": "5.4",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2024",
+            "period": "M08",
+            "periodName": "August",
+            "value": "6.0",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2024",
+            "period": "M07",
+            "periodName": "July",
+            "value": "6.3",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2024",
+            "period": "M06",
+            "periodName": "June",
+            "value": "6.4",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2024",
+            "period": "M05",
+            "periodName": "May",
+            "value": "5.2",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2024",
+            "period": "M04",
+            "periodName": "April",
+            "value": "4.8",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2024",
+            "period": "M03",
+            "periodName": "March",
+            "value": "4.9",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2024",
+            "period": "M02",
+            "periodName": "February",
+            "value": "5.2",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2024",
+            "period": "M01",
+            "periodName": "January",
+            "value": "4.8",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2023",
+            "period": "M12",
+            "periodName": "December",
+            "value": "4.1",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2023",
+            "period": "M11",
+            "periodName": "November",
+            "value": "4.4",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2023",
+            "period": "M10",
+            "periodName": "October",
+            "value": "4.8",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2023",
+            "period": "M09",
+            "periodName": "September",
+            "value": "4.8",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2023",
+            "period": "M08",
+            "periodName": "August",
+            "value": "5.3",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2023",
+            "period": "M07",
+            "periodName": "July",
+            "value": "4.6",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2023",
+            "period": "M06",
+            "periodName": "June",
+            "value": "4.9",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2023",
+            "period": "M05",
+            "periodName": "May",
+            "value": "3.9",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2023",
+            "period": "M04",
+            "periodName": "April",
+            "value": "3.6",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2023",
+            "period": "M03",
+            "periodName": "March",
+            "value": "4.1",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2023",
+            "period": "M02",
+            "periodName": "February",
+            "value": "4.3",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2023",
+            "period": "M01",
+            "periodName": "January",
+            "value": "4.4",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M12",
+            "periodName": "December",
+            "value": "4.0",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M11",
+            "periodName": "November",
+            "value": "4.5",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M10",
+            "periodName": "October",
+            "value": "4.8",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M09",
+            "periodName": "September",
+            "value": "4.9",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M08",
+            "periodName": "August",
+            "value": "5.6",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M07",
+            "periodName": "July",
+            "value": "5.4",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M06",
+            "periodName": "June",
+            "value": "5.7",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M05",
+            "periodName": "May",
+            "value": "4.8",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M04",
+            "periodName": "April",
+            "value": "4.6",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M03",
+            "periodName": "March",
+            "value": "4.7",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M02",
+            "periodName": "February",
+            "value": "5.2",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "M01",
+            "periodName": "January",
+            "value": "5.2",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2021",
+            "period": "M12",
+            "periodName": "December",
+            "value": "4.2",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2021",
+            "period": "M11",
+            "periodName": "November",
+            "value": "4.7",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2021",
+            "period": "M10",
+            "periodName": "October",
+            "value": "5.4",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2021",
+            "period": "M09",
+            "periodName": "September",
+            "value": "5.9",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2021",
+            "period": "M08",
+            "periodName": "August",
+            "value": "7.0",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2021",
+            "period": "M07",
+            "periodName": "July",
+            "value": "7.8",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2021",
+            "period": "M06",
+            "periodName": "June",
+            "value": "8.7",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2021",
+            "period": "M05",
+            "periodName": "May",
+            "value": "7.5",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2021",
+            "period": "M04",
+            "periodName": "April",
+            "value": "7.5",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2021",
+            "period": "M03",
+            "periodName": "March",
+            "value": "7.5",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2021",
+            "period": "M02",
+            "periodName": "February",
+            "value": "8.2",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2021",
+            "period": "M01",
+            "periodName": "January",
+            "value": "8.8",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M12",
+            "periodName": "December",
+            "value": "8.9",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M11",
+            "periodName": "November",
+            "value": "8.7",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M10",
+            "periodName": "October",
+            "value": "9.1",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M09",
+            "periodName": "September",
+            "value": "10.8",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M08",
+            "periodName": "August",
+            "value": "11.6",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M07",
+            "periodName": "July",
+            "value": "13.9",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M06",
+            "periodName": "June",
+            "value": "15.0",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M05",
+            "periodName": "May",
+            "value": "16.5",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M04",
+            "periodName": "April",
+            "value": "19.8",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M03",
+            "periodName": "March",
+            "value": "6.6",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M02",
+            "periodName": "February",
+            "value": "3.9",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "M01",
+            "periodName": "January",
+            "value": "3.9",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2019",
+            "period": "M12",
+            "periodName": "December",
+            "value": "3.0",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2019",
+            "period": "M11",
+            "periodName": "November",
+            "value": "3.2",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2019",
+            "period": "M10",
+            "periodName": "October",
+            "value": "3.6",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2019",
+            "period": "M09",
+            "periodName": "September",
+            "value": "3.5",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2019",
+            "period": "M08",
+            "periodName": "August",
+            "value": "4.0",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2019",
+            "period": "M07",
+            "periodName": "July",
+            "value": "4.3",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2019",
+            "period": "M06",
+            "periodName": "June",
+            "value": "4.4",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2019",
+            "period": "M05",
+            "periodName": "May",
+            "value": "3.7",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2019",
+            "period": "M04",
+            "periodName": "April",
+            "value": "3.8",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2019",
+            "period": "M03",
+            "periodName": "March",
+            "value": "4.0",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2019",
+            "period": "M02",
+            "periodName": "February",
+            "value": "4.3",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2019",
+            "period": "M01",
+            "periodName": "January",
+            "value": "4.6",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2018",
+            "period": "M12",
+            "periodName": "December",
+            "value": "3.7",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2018",
+            "period": "M11",
+            "periodName": "November",
+            "value": "3.7",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2018",
+            "period": "M10",
+            "periodName": "October",
+            "value": "4.0",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2018",
+            "period": "M09",
+            "periodName": "September",
+            "value": "3.9",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2018",
+            "period": "M08",
+            "periodName": "August",
+            "value": "4.2",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2018",
+            "period": "M07",
+            "periodName": "July",
+            "value": "4.3",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2018",
+            "period": "M06",
+            "periodName": "June",
+            "value": "4.7",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2018",
+            "period": "M05",
+            "periodName": "May",
+            "value": "3.5",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2018",
+            "period": "M04",
+            "periodName": "April",
+            "value": "3.6",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2018",
+            "period": "M03",
+            "periodName": "March",
+            "value": "3.9",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2018",
+            "period": "M02",
+            "periodName": "February",
+            "value": "4.7",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2018",
+            "period": "M01",
+            "periodName": "January",
+            "value": "5.0",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2017",
+            "period": "M12",
+            "periodName": "December",
+            "value": "4.5",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2017",
+            "period": "M11",
+            "periodName": "November",
+            "value": "4.8",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2017",
+            "period": "M10",
+            "periodName": "October",
+            "value": "5.1",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2017",
+            "period": "M09",
+            "periodName": "September",
+            "value": "5.2",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2017",
+            "period": "M08",
+            "periodName": "August",
+            "value": "5.8",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2017",
+            "period": "M07",
+            "periodName": "July",
+            "value": "5.5",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2017",
+            "period": "M06",
+            "periodName": "June",
+            "value": "5.7",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2017",
+            "period": "M05",
+            "periodName": "May",
+            "value": "4.8",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2017",
+            "period": "M04",
+            "periodName": "April",
+            "value": "4.8",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2017",
+            "period": "M03",
+            "periodName": "March",
+            "value": "4.7",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2017",
+            "period": "M02",
+            "periodName": "February",
+            "value": "5.2",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2017",
+            "period": "M01",
+            "periodName": "January",
+            "value": "5.7",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2016",
+            "period": "M12",
+            "periodName": "December",
+            "value": "5.2",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2016",
+            "period": "M11",
+            "periodName": "November",
+            "value": "5.4",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2016",
+            "period": "M10",
+            "periodName": "October",
+            "value": "6.1",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2016",
+            "period": "M09",
+            "periodName": "September",
+            "value": "6.1",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2016",
+            "period": "M08",
+            "periodName": "August",
+            "value": "6.3",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2016",
+            "period": "M07",
+            "periodName": "July",
+            "value": "6.2",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2016",
+            "period": "M06",
+            "periodName": "June",
+            "value": "6.7",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2016",
+            "period": "M05",
+            "periodName": "May",
+            "value": "5.9",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2016",
+            "period": "M04",
+            "periodName": "April",
+            "value": "6.3",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2016",
+            "period": "M03",
+            "periodName": "March",
+            "value": "6.5",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2016",
+            "period": "M02",
+            "periodName": "February",
+            "value": "6.7",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          },
+          {
+            "year": "2016",
+            "period": "M01",
+            "periodName": "January",
+            "value": "6.8",
+            "footnotes": [
+              {
+                "code": "T",
+                "text": "Data were subject to revision on May 19, 2026."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1232 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="description" content="Data Downloads for HRSA&#39;s Health Programs and Services" />
+  <meta name="keywords" content="Area Health Resources files,Grants,Health Center Services Delivery and Look-Alike sites, Look alikes,Training Programs,Organ Donation, Transplantation,Ryan White, hiv/aids,hiv,aids,scholarships,loans,shortage areas, shortage" />
+  <title>Data Downloads</title>
+
+  
+
+
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="manifest" href="/Content/Styles/manifest.json">
+  <link rel="stylesheet" href="https://data.hrsa.gov/ux/public/uswds/css/styles.css">
+  <link href="https://data.hrsa.gov/ux/common/fontawesome/css/all.css" rel="stylesheet" />
+  <link href="/Content/Styles/print.css" media="print" rel="stylesheet" />
+  <script src="https://data.hrsa.gov/ux/public/uswds/js/uswds-init.min.js"></script>
+  <script>window.dataLayer = window.dataLayer || [];</script>
+
+  <script src="https://data.hrsa.gov/Scripts/jquery-3.6.0.min.js"></script>
+  <script src="/Scripts/js.cookie-3.0.5.min.js"></script>
+
+  <!-- Placeholder for page-specific additional styles -->
+  
+  <!-- Placeholder for page-specific important scripts that must be loaded before main page content -->
+  
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push(
+        { 'gtm.start': new Date().getTime(), event: 'gtm.js' }
+      ); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-MVDSQT');
+  </script>
+  <!-- End Google Tag Manager -->
+
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="S9X4S-P4BDB-HSYM3-TQ9HN-SWNM6",function(){function e(){if(!i){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.parentNode.appendChild(e),i=!0}}function t(e){i=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",o.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"S9X4S-P4BDB-HSYM3-TQ9HN-SWNM6";var o=document.currentScript||document.getElementsByTagName("script")[0],i=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!i)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="ezugfoyxfuxmu2rlbkma-f-b77232be0-clientnsv4-s.akamaihd.net",o="false"=="true"?2:1,i={"ak.v":"41","ak.cp":"1962722","ak.ai":parseInt("1339402",10),"ak.ol":"0","ak.cr":6,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"737981f1","ak.r":47370,"ak.a2":n,"ak.m":"dscb","ak.n":"essl","ak.cport":49619,"ak.gh":"23.208.24.73","ak.quicv":"","ak.tlsv":"tls1.2","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"bbr","ak.t":"1781205656","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==DRH2ycGtFMCFPNhOb1hICzCXRYWD8pYT7y+HWTgwQiw5MCzTRmrf8EeLYjSznkGStNXEROxo22IgdSHQEvAQHKbKordE/cHgt8VXiJCR9UW90xAE4dFvW4WNRwwrsuBT+UQUIQQ2j5mYMD734ULs+/3BY2TxS3Owmrb5vSVbWcXjZXfCgk+NmPUzCE5GefsrQxJZi0gDOV8HjupNfKppJgnQIn/eTnBFIPbCWB3jzMQasrfzraz5QinK6YmwG5vQr1xtnOqzuV0miOqgFrxCE+2uJjIvRFbmlMrKSjPC6DfhIPplpHSAs73bYYRe7rrK6XILCbG/jDVOboPpekVECaXgXgnILNSh9hpRjztfQVU1roaYlCvMjmFdBlmUNPzsoyvJsEeyq/EFevyNrUuondafgstHOGkQgFdFGV5Rnr0=","ak.pv":"12","ak.dpoabenc":"","ak.tf":o};if(""!==t)i["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body class="position-relative">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe sandbox="" src="https://www.googletagmanager.com/ns.html?id=GTM-MVDSQT"
+            height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager"></iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <!-- USWDS HEADER -->
+  
+<a class="usa-skipnav no-print" href="#main-content">Skip to main content</a>
+<section class="usa-banner"
+         aria-label="Official website of the United States government">
+    <div class="usa-accordion">
+        <header class="usa-banner__header padding-x-2 tablet:padding-x-4 desktop:padding-x-5">
+            <div class="usa-banner__inner">
+                <div class="grid-col-auto">
+                    <img aria-hidden="true" class="usa-banner__header-flag" src="https://data.hrsa.gov/ux/public/uswds/img/us_flag_small.png" alt="US flag" />
+                </div>
+                <div class="grid-col-fill tablet:grid-col-auto" aria-hidden="true">
+                    <p class="usa-banner__header-text">
+                        An official website of the United States government
+                    </p>
+                    <p class="usa-banner__header-action">Here's how you know</p>
+                </div>
+                <button type="button" class="usa-accordion__button usa-banner__button no-print" aria-expanded="false" aria-controls="gov-banner-default">
+                    <span class="usa-banner__button-text">Here's how you know</span>
+                </button>
+            </div>
+        </header>
+        <div class="usa-banner__content usa-accordion__content padding-x-2 tablet:padding-x-4 desktop:padding-x-5" id="gov-banner-default" hidden>
+            <div class="grid-row">
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://data.hrsa.gov/ux/public/uswds/img/icon-dot-gov.svg"
+                         alt=".Gov icon"
+                         aria-hidden="true" />
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>The .gov means it's official.</strong><br />
+                            A <strong>.gov</strong> website belongs to an official government
+                            organization in the United States.
+                        </p>
+                    </div>
+                </div>
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://data.hrsa.gov/ux/public/uswds/img/icon-https.svg"
+                         alt="Lock icon"
+                         aria-hidden="true" />
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Secure .gov websites use HTTPS</strong><br />A
+                            <strong>lock</strong> (
+                            <span>
+                                <i class="fa-solid fa-lock-keyhole"></i>
+                            </span>) or <strong>https://</strong> means you’ve safely connected to
+                            the .gov website. Share sensitive information only on official,
+                            secure websites.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="usa-overlay"></div>
+<div id="notification"></div>
+
+<header class="usa-header usa-header--extended">
+  <div class="usa-navbar">
+    <div class="usa-logo">
+      <a href="https://data.hrsa.gov/" title="HRSA Data Warehouse Home">
+        <img class="maxh-6 padding-y-1 tablet:maxh-none tablet:padding-y-0" alt="HRSA Data Warehouse"
+             src="https://data.hrsa.gov/ux/common/img/hdw-logo-blue.png" />
+      </a>
+    </div>
+    <button type="button" class="usa-menu-btn height-auto">Menu</button>
+  </div>
+
+  <nav aria-label="Primary navigation" class="usa-nav no-print">
+    <div class="usa-nav__inner">
+      <div class="usa-nav__secondary display-none tablet:display-block">
+        <ul class="usa-nav__secondary-links">
+          <li class="usa-nav__secondary-item flex-align-self-end">
+            <a href="mailto:data@hrsa.gov" class="usa-nav-link"><span>Contact Us for Support</span></a>
+          </li>
+          <li class="usa-nav__secondary-item flex-align-self-end display-none tablet:display-block rich-tooltip rich-tooltip--inverse rich-tooltip--left">
+            <a href="https://mydata.hrsa.gov/" class="rich-tooltip__trigger usa-nav-link usa-link text-primary hover:text-primary-dark">
+              <span>Internal HDW Sign On <i class="fa-regular fa-info-circle"></i></span>
+            </a>
+            <span class="rich-tooltip__container margin-right-neg-1">
+              <span class="rich-tooltip__body text-normal font-body-2xs text-no-wrap">
+                The MyData site is an internal repository of HRSA data.<br/>
+                It is only accessible to HRSA staff and authentication is required.
+              </span>
+            </span>
+          </li>
+        </ul>
+
+        <section aria-label="Search component">
+<form action="/Search" class="usa-search usa-search--small" method="get" role="search">                <label class="usa-sr-only" for="query1">Search</label>
+                <input class="usa-input radius-left-md" type="search" name="query" id="query1" placeholder="Search" />
+                <button class="usa-button" type="submit">
+                    <img src="https://data.hrsa.gov/ux/public/uswds/img/usa-icons-bg/search--white.svg"
+                         class="usa-search__submit-icon"
+                         alt="Search" />
+                </button>
+</form>        </section>
+      </div>
+
+      <button type="button" class="usa-nav__close">
+        <img src="https://data.hrsa.gov/ux/public/uswds/img/usa-icons/close.svg" alt="Close" />
+      </button>
+
+      <ul class="usa-nav__primary usa-accordion flex-justify"><li class="usa-nav__primary-item position-relative"><button type="button" class="usa-accordion__button usa-nav__link " aria-expanded="false" aria-controls="nav-menu-1"><span>Find Health Care</span></button><div id="nav-menu-1" class="usa-nav__submenu  " hidden><div class="grid-row"><div class="grid-col-12 tablet:grid-col-12"><ul class="usa-list usa-list--unstyled"><li class="usa-nav__submenu-item "><a href="https://findahealthcenter.hrsa.gov/"><span>Find a Health Center</span></a></li><li class="usa-nav__submenu-item "><a href="https://findhivcare.hrsa.gov/"><span>Find a Ryan White HIV/AIDS Medical Provider</span></a></li><li class="usa-nav__submenu-item "><a href="https://opotxfind.hrsa.gov/"><span>Find an Organ Transplant Center</span></a></li><li class="usa-nav__submenu-item "><a href="https://data.hrsa.gov/hdslocator/index.html"><span>Find a Migrant and Seasonal Head Start Center</span></a></li></ul></div></div></div></li><li class="usa-nav__primary-item position-relative"><button type="button" class="usa-accordion__button usa-nav__link usa-current" aria-expanded="false" aria-controls="nav-menu-2"><span>Data</span></button><div id="nav-menu-2" class="usa-nav__submenu tablet:width-mobile-lg tablet:left-neg-15 tablet-lg:left-0" hidden><div class="grid-row"><div class="grid-col-12 tablet:grid-col-6"><ul class="usa-list usa-list--unstyled"><li class="usa-nav__submenu-item "><a href="https://data.hrsa.gov/data/data-explorer"><span>Data Explorer</span></a></li><li class="usa-nav__submenu-item "><a href="https://data.hrsa.gov/data/geo"><span>Data by Geography</span></a></li><li class="usa-nav__submenu-item "><a href="/data/dashboards"><span>Dashboards</span></a></li><li class="usa-nav__submenu-item usa-current"><a href="/data/download"><span>Data Downloads</span></a></li><li class="usa-nav__submenu-item "><a href="/data/data-sources"><span>Data Sources and Metadata</span></a></li></ul></div><div class="grid-col-12 tablet:grid-col-6"><ul class="usa-list usa-list--unstyled"><li class="usa-nav__submenu-item "><a href="/data/fact-sheets"><span>HRSA Fact Sheets</span></a></li><li class="usa-nav__submenu-item "><a href="https://data.hrsa.gov/data/fact-sheet-maps"><span>HRSA Fact Sheet Maps</span></a></li><li class="usa-nav__submenu-item "><a href="/data/reports"><span>Data Reports</span></a></li></ul></div></div></div></li><li class="usa-nav__primary-item position-relative"><button type="button" class="usa-accordion__button usa-nav__link " aria-expanded="false" aria-controls="nav-menu-3"><span>Topics</span></button><div id="nav-menu-3" class="usa-nav__submenu tablet:width-mobile-lg tablet:right-neg-15 tablet-lg:right-0" hidden><div class="grid-row"><div class="grid-col-12 tablet:grid-col-6"><ul class="usa-list usa-list--unstyled"><li class="usa-nav__submenu-item "><a href="/topics/grants"><span>Grants</span></a></li><li class="usa-nav__submenu-item "><a href="/topics/health-workforce"><span>Health Workforce</span></a></li><li class="usa-nav__submenu-item "><a href="/topics/health-centers"><span>Health Centers</span></a></li><li class="usa-nav__submenu-item margin-left-4 "><a href="https://data.hrsa.gov/topics/health-centers/uds"><span class="text-normal">Health Center Program Uniform Data System (UDS) Data</span></a></li><li class="usa-nav__submenu-item "><a href="/topics/health-systems"><span>Health Systems</span></a></li></ul></div><div class="grid-col-12 tablet:grid-col-6"><ul class="usa-list usa-list--unstyled"><li class="usa-nav__submenu-item "><a href="/topics/service-delivery-sites"><span>Health Care and Service Delivery Sites</span></a></li><li class="usa-nav__submenu-item "><a href="/topics/hiv-aids"><span>Ryan White HIV/AIDS Program</span></a></li><li class="usa-nav__submenu-item "><a href="/topics/maternal-child-health"><span>Maternal and Child Health</span></a></li><li class="usa-nav__submenu-item "><a href="/topics/rural-health"><span>Rural Health</span></a></li></ul></div></div></div></li><li class="usa-nav__primary-item position-relative"><button type="button" class="usa-accordion__button usa-nav__link " aria-expanded="false" aria-controls="nav-menu-4"><span>Tools</span></button><div id="nav-menu-4" class="usa-nav__submenu tablet:width-mobile-lg tablet:right-neg-15 tablet-lg:right-0" hidden><div class="grid-row"><div class="grid-col-12 tablet:grid-col-6"><div class="font-ui-3xs text-accent-warm-dark text-uppercase text-no-wrap padding-y-2 tablet:padding-bottom-1 padding-left-2">Featured Tools</div><ul class="usa-list usa-list--unstyled"><li class="usa-nav__submenu-item "><a href="https://data.hrsa.gov/tools/build-your-own-map"><span>Build Your Own Map</span></a></li><li class="usa-nav__submenu-item "><a href="https://geocarenavigator.hrsa.gov/"><span>Health Center Program GeoCare Navigator</span></a></li><li class="usa-nav__submenu-item "><a href="https://data.hrsa.gov/tools/high-need-mapping-tool"><span>High Need Mapping Tool</span></a></li><li class="usa-nav__submenu-item "><a href="/topics/health-workforce/shortage-areas/hpsa-find"><span>HPSA Find</span></a></li><li class="usa-nav__submenu-item "><a href="/tools/quick-maps"><span>Quick Maps</span></a></li><li class="usa-nav__submenu-item "><a href="/topics/rural-health/rural-health-eligibility"><span>Rural Health Grants Eligibility Analyzer</span></a></li><li class="usa-nav__submenu-item "><a href="/topics/health-workforce/shortage-areas/by-address"><span>Shortage Areas by Address</span></a></li><li class="usa-nav__submenu-item "><a href="/topics/health-centers/sanam"><span>Unmet Need Score Map Tool</span></a></li></ul></div><div class="grid-col-12 tablet:grid-col-6"><div class="font-ui-3xs text-accent-warm-dark text-uppercase text-no-wrap padding-y-2 tablet:padding-bottom-1 padding-left-2">Medicare Eligibility Analyzers</div><ul class="usa-list usa-list--unstyled"><li class="usa-nav__submenu-item "><a href="/tools/medicare/physician-bonus"><span>Physician Bonus Payment</span></a></li><li class="usa-nav__submenu-item "><a href="/tools/medicare/telehealth"><span>Telehealth Payment</span></a></li><li><div class="border-bottom-1px border-base-light margin-x-2"></div></li><li><div class="font-ui-3xs text-accent-warm-dark text-uppercase text-no-wrap padding-y-2 tablet:padding-bottom-1 padding-left-2">Advanced Developer Tools</div></li><li class="usa-nav__submenu-item "><a href="/tools/widgets"><span>Widgets</span></a></li><li class="usa-nav__submenu-item "><a href="/tools/gis-developer-tools"><span>GIS Developer Tools</span></a></li><li class="usa-nav__submenu-item "><a href="/tools/web-services"><span>Web Services/APIs</span></a></li><li class="usa-nav__submenu-item "><a href="/tools/web-services/registration"><span>Web Services Registration</span></a></li></ul></div></div></div></li><li class="usa-nav__primary-item position-relative"><button type="button" class="usa-accordion__button usa-nav__link " aria-expanded="false" aria-controls="nav-menu-5"><span>About and Support</span></button><div id="nav-menu-5" class="usa-nav__submenu tablet:width-mobile-lg tablet:right-neg-3 tablet-lg:right-0" hidden><div class="grid-row"><div class="grid-col-12 tablet:grid-col-6"><div class="font-ui-3xs text-accent-warm-dark text-uppercase text-no-wrap padding-y-2 tablet:padding-bottom-1 padding-left-2">Support and Resources</div><ul class="usa-list usa-list--unstyled"><li class="usa-nav__submenu-item "><a href="/about/get-started"><span>Get Started</span></a></li><li class="usa-nav__submenu-item "><a href="/about/faq"><span>Frequently Asked Questions</span></a></li><li class="usa-nav__submenu-item "><a href="/about/tutorials"><span>Tutorials</span></a></li><li class="usa-nav__submenu-item "><a href="/about/glossary"><span>Glossary</span></a></li><li class="usa-nav__submenu-item "><a href="/about/a-to-z"><span>A to Z Index</span></a></li><li class="usa-nav__submenu-item "><a href="/about/site-map"><span>Site Map</span></a></li></ul></div><div class="grid-col-12 tablet:grid-col-6"><div class="font-ui-3xs text-accent-warm-dark text-uppercase text-no-wrap padding-y-2 tablet:padding-bottom-1 padding-left-2">About HDW</div><ul class="usa-list usa-list--unstyled"><li class="usa-nav__submenu-item "><a href="/about/related-resources"><span>Related Resources</span></a></li><li class="usa-nav__submenu-item "><a href="/about/aboutus"><span>About Us</span></a></li><li class="usa-nav__submenu-item "><a href="/about/news-and-updates"><span>News and Updates</span></a></li><li class="usa-nav__submenu-item "><a href="/about/HRSARegionalOffices"><span>HRSA Regional Office Map</span></a></li></ul></div></div></div></li></ul>
+
+      <div class="usa-nav__secondary tablet:display-none">
+        <ul class="usa-nav__secondary-links">
+          <li class="usa-nav__secondary-item flex-align-self-end">
+            <a href="mailto:data@hrsa.gov" class="usa-nav-link"><span>Contact Us for Support</span></a>
+          </li>
+        </ul>
+
+        <section aria-label="Search component">
+<form action="/Search" class="usa-search usa-search--small" method="get" role="search">                <label class="usa-sr-only" for="query2">Search</label>
+                <input class="usa-input radius-left-md" type="search" name="query" id="query2" placeholder="Search" />
+                <button class="usa-button" type="submit">
+                    <img src="https://data.hrsa.gov/ux/public/uswds/img/usa-icons-bg/search--white.svg"
+                         class="usa-search__submit-icon"
+                         alt="Search" />
+                </button>
+</form>        </section>
+      </div>
+    </div>
+  </nav>
+</header>
+
+  <!-- END USWDS HEADER-->
+
+<div class="width-full">
+<div class="grid-container padding-x-2 tablet:padding-x-4 desktop:padding-x-0">
+  <div class="grid-row">
+    <div class="grid-col-12 desktop:grid-col-10 desktop:grid-offset-1">
+      <nav class="usa-breadcrumb" aria-label="Breadcrumbs">
+        <ol class="usa-breadcrumb__list">
+          <li class="usa-breadcrumb__list-item">
+            <a class="usa-breadcrumb__link" href="/">Home</a>
+          </li>
+              <li class="usa-breadcrumb__list-item">
+                  <span>Data</span>
+              </li>
+
+          <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
+            
+            <span>Data Downloads</span>
+          </li>
+        </ol>
+      </nav>
+    </div>
+      <div class="grid-col-12 desktop:grid-col-10 desktop:grid-offset-1">
+        <div class="border-bottom-1px border-base-light"></div>
+      </div>
+  </div>
+</div>  
+
+<main id="main-content" class="bg-base-lightest">
+  <section aria-label="About Data Downloads" class="bg-primary-darker text-white">
+    <div class="grid-container">
+      <div class="grid-row">
+        <div class="grid-col-12 tablet:grid-col-5 tablet:grid-offset-1 desktop:grid-col-6 overflow-hidden display-flex tablet:order-last tablet:padding-right-0">
+          <img src="https://data.hrsa.gov/ux/public/img/data-downloads-hero.jpg" alt="" class="flex-fill object-fit-cover" />
+        </div>
+        <div class="grid-col-12 tablet:grid-col-6 desktop:grid-col-4 desktop:grid-offset-1 padding-left-3 tablet:padding-left-5 desktop:padding-left-0 display-flex flex-align-center">
+          <div class="margin-y-2 tablet:margin-top-1 desktop:margin-top-3 desktop:margin-bottom-4">
+            <h1 class="heading-bordered font-heading-lg tablet:font-heading-2xl">
+              Data Downloads
+            </h1>
+            <p class="font-body-md tablet:font-body-lg maxw-tablet">
+              Access the HRSA Data Warehouse catalog to download files in various formats. Filter by HRSA Program and view details on data sources, update schedules, and usage guidelines.
+            </p>
+            <span class="font-ui-sm text-semibold display-inline-block text-white text-no-underline">
+              How do I use these files
+              <span aria-controls="howToUseFilesModal"
+                    tabindex="0"
+                    data-open-modal
+                    class="text-white text-no-underline cursor-pointer"
+                    onclick="captureAnalytics('How do I use these files?', 'ToolTip', 'Open')">
+                <i class="fa-regular fa-circle-question"></i>
+              </span>
+            </span>
+
+            <!-- USWDS Modal -->
+            <div class="usa-modal tablet:maxw-tablet desktop:maxw-tablet-lg"
+                 id="howToUseFilesModal"
+                 role="dialog"
+                 title="How do I use these files?"
+                 aria-labelledby="howToUseFilesModal-head"
+                 aria-describedby="howToUseFilesModal-desc">
+              <div class="usa-modal__content">
+                <div class="usa-modal__main">
+                  <h2 class="usa-modal__heading" id="howToUseFilesModal-head">How do I use these files?</h2>
+                  <div class="usa-prose" id="howToUseFilesModal-desc">
+                    <p class="margin-top-0">
+                      On our Data Downloads page, we have data in various formats (XLSX, CSV, ASCII, SAS, ZIP) and data for many HRSA programs. Over 100 files are available for download.
+                    </p>
+                    <p>
+                      You can find a detailed listing of the available data on the About the Data page with links to access.
+                    </p>
+                    <p>
+                      Still not finding what you need? First, try our Related Resources page, which features a variety of other public health data, mapping, and dashboard sites. If that still does not meet your needs, try contacting one of the following resources:
+                    </p>
+                    <ul class="usa-list">
+                      <li>Area Health Resources Files: <a href="mailto:NCHWAInquiries@hrsa.gov" class="usa-link">NCHWAInquiries@hrsa.gov</a></li>
+                      <li>Health Center Patient Survey: <a href="mailto:bphchcps@hrsa.gov" class="usa-link">bphchcps@hrsa.gov</a></li>
+                      <li>Uniform Data System: Phone: 877-464-4772 or Email contact form</li>
+                      <li>Freedom of Information Act (FOIA)</li>
+                    </ul>
+                  </div>
+                </div>
+                <button type="button" class="usa-button usa-modal__close" aria-label="Close this window" data-close-modal>
+                  <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+                    <use href="#close"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <section class="grid-container padding-x-2 tablet:padding-x-4 desktop:padding-x-0">
+      <div class="grid-row">
+        <div class="grid-col-12 tablet:grid-col-auto desktop:grid-offset-1 text-base-darker">
+          <nav class="usa-breadcrumb" aria-label="Data Download filter">
+            <ol class="usa-breadcrumb__list">
+              <li class="usa-breadcrumb__list-item">
+                <a href="/data/download" class="usa-link usa-link--novisited">Data Downloads</a>
+              </li>
+              <li class="usa-breadcrumb__list-item usa-current">
+                <span>Search Results for "<span class="text-semibold">Shortage Areas</span>"</span>
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </section>
+  <!-- DATASET SECTION -->
+  <section aria-label="Data sets"
+           class="grid-container padding-x-2 tablet:padding-x-4 desktop:padding-x-0 margin-top-2 tablet:margin-top-3">
+    <div class="grid-row">
+      <div class="grid-col-12 desktop:grid-col-10 desktop:grid-offset-1">
+        <ul class="usa-card-group">
+            <li class="usa-card width-full">
+              <div class="usa-card__container shadow-3 border-0">
+                  <div class="usa-card__header">
+                    <h1 class="usa-card__heading font-heading-lg text-accent-warm-dark text-semibold">Shortage Areas</h1>
+                  </div>
+
+                <div class="usa-card__body text-base-darker">
+                    <div class="text-ellipsis-2 position-relative margin-bottom-2 measure-6 read-more">
+                      These data provide areas designated by HRSA as having shortages of primary care, dental care, or mental health providers. HRSA’s Bureau of Health Workforce (BHW) develops shortage designation criteria and uses them to decide whether or not a geographic area or population group is a Health Professional Shortage Area (HPSA), Medically Underserved Area (MUA), or Medically Underserved Population (MUP). More than 34 federal programs depend on HPSA/MUA/MUP designations to determine eligibility or as a funding preference. About 20 percent of the U.S. population resides in primary medical care HPSAs. HPSAs may have shortages of primary medical care, dental, or mental health providers; may be urban or rural areas; population groups; or medical or other public facilities.
+                      <div class="read-more-link position-absolute bottom-0 right-0 padding-right-05 bg-white display-none">
+                        &hellip;
+                        <a href="#dataset-modal-0" class="usa-link usa-link--dark" aria-controls="dataset-modal-0" data-open-modal>
+                          <i class="fa-regular fa-window-maximize margin-right-05"></i> Read More
+                        </a>
+                      </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="usa-modal tablet:maxw-tablet desktop:maxw-tablet-lg"
+                         id="dataset-modal-0"
+                         role="dialog"
+                         title="Shortage Areas"
+                         aria-labelledby="dataset-modal-0-head"
+                         aria-describedby="dataset-modal-0-desc">
+                      <div class="usa-modal__content">
+                        <div class="usa-modal__main">
+                          <h2 class="usa-modal__heading" id="dataset-modal-0-head">Shortage Areas</h2>
+                          <div class="usa-prose" id="dataset-modal-0-desc"><p>These data provide areas designated by HRSA as having shortages of primary care, dental care, or mental health providers. HRSA’s Bureau of Health Workforce (BHW) develops shortage designation criteria and uses them to decide whether or not a geographic area or population group is a Health Professional Shortage Area (HPSA), Medically Underserved Area (MUA), or Medically Underserved Population (MUP). More than 34 federal programs depend on HPSA/MUA/MUP designations to determine eligibility or as a funding preference. About 20 percent of the U.S. population resides in primary medical care HPSAs. HPSAs may have shortages of primary medical care, dental, or mental health providers; may be urban or rural areas; population groups; or medical or other public facilities.</p></div>
+                        </div>
+                        <button type="button" class="usa-button usa-modal__close" aria-label="Close this window" data-close-modal>
+                          <svg class="usa-icon" aria-hidden="true" focusable="false" role="img" aria-label="Close"
+                               data-src="https://data.hrsa.gov/ux/public/uswds/img/sprite.svg#close" data-unique-ids="disabled" data-cache="disabled" data-append="true">
+                            <use href="#close"></use>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+
+                    <div class="font-ui-2xs grid-container margin-0 padding-bottom-2">
+                      <div class="grid-row">
+                          <div class="tablet:border-right-1px grid-col-12 tablet:grid-col-auto tablet:border-base padding-right-1">
+                            <span class="text-bold">Updated:</span> 6/11/2026
+                          </div>
+                                                  <div class="desktop:border-right-1px grid-col-auto display-flex padding-top-1 tablet:padding-top-0 desktop:border-base">
+                              <div class="border-right-1px border-base padding-right-1 tablet:margin-left-1">
+                                <span class="text-bold">Refresh Cycle:</span> Daily
+                              </div>
+                                                          <div class="border-right-1px padding-right-1 margin-left-1">
+                                <span class="text-bold">Data Type:</span> HRSA
+                              </div>
+                          </div>
+                                                  <div class="grid-col-12 desktop:grid-col-auto desktop:margin-left-1 padding-top-1 desktop:padding-top-0">
+                            <a href="https://data.hrsa.gov/DataDownload/DD_Files/HPSA_DATAMART_METADATA.XLSX" class="usa-link margin-right-05">Download Metadata</a>
+                            <span class="usa-tag bg-base-light text-base-darker font-ui-3xs padding-y-05">XLSX</span>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+
+                  <div class="usa-card__footer bg-neutral-subtle padding-0">
+                    <div class="usa-accordion usa-accordion--link">
+                      <div class="usa-accordion__heading padding-x-3 padding-y-105">
+                        <button type="button" class="usa-accordion__button font-ui-sm" aria-expanded="true" aria-controls="accordion-0"
+                                onclick="captureCardToggle('Shortage Areas',this);">
+                          <span>
+                            39 files
+                          </span>
+                        </button>
+                      </div>
+
+                      <div id="accordion-0" class="usa-accordion__content padding-0" >
+                        <div class="grid-container margin-0 padding-x-5 padding-top-3 padding-bottom-1">
+
+                            <div class="grid-row display-flex flex-align-center border-bottom-1px border-base tablet:border-bottom-0 margin-bottom-2">
+                              <div class="tablet:border-right-1px grid-col-12 tablet:grid-col-auto tablet:border-base-dark padding-right-1">
+                                  <h1 class="font-heading-sm tablet:font-heading-md margin-y-0">HPSA – Primary Care</h1>
+                              </div>
+                                <div class="grid-col-12 tablet:grid-col-auto margin-top-1 tablet:margin-top-0 padding-bottom-105 tablet:padding-bottom-0 tablet:padding-left-1">
+                                  <a href="#terms-modal-0-0" class="usa-link usa-link--dark" aria-controls="terms-modal-0-0" data-open-modal
+                                     onclick="captureAnalytics('Downloads','Shortage Areas','Health Professional Shortage Areas (HPSA)');">
+                                    <i class="fa-regular fa-window-maximize margin-right-05"></i>
+                                    View Data Usage Terms &amp; Conditions
+                                  </a>
+                                </div>
+                                <div class="usa-modal tablet:maxw-tablet desktop:maxw-tablet-lg"
+                                     id="terms-modal-0-0"
+                                     role="dialog"
+                                     title="Data Usage Terms & Conditions"
+                                     aria-labelledby="terms-modal-0-0-head"
+                                     aria-describedby="terms-modal-0-0-desc">
+                                  <div class="usa-modal__content">
+                                    <div class="usa-modal__main">
+                                      <h2 class="usa-modal__heading text-base-darkest" id="terms-modal-0-0-head">
+                                        Data Usage Terms &amp; Conditions
+                                      </h2>
+                                      <h3 class="font-heading-sm text-base-darkest">
+                                        Health Professional Shortage Areas (HPSA)
+                                      </h3>
+                                      <div class="usa-prose text-base-darker" id="terms-modal-0-0-desc">
+                                        <p><span class="text-bold">Data Published by:</span> HRSA, Bureau of Health Workforce (BHW), Division of Policy and Shortage Designation (DPSD)</p>
+                                        <p><span class="text-bold">Usage limitations:</span> None</p>
+                                      </div>
+                                      <div class="usa-modal__footer"></div>
+                                    </div>
+                                    <button type="button" class="usa-button usa-modal__close" aria-label="Close this window" data-close-modal>
+                                      <svg class="usa-icon" aria-hidden="true" focusable="false" role="img"
+                                           data-src="https://data.hrsa.gov/ux/public/uswds/img/sprite.svg#close" data-unique-ids="disabled"
+                                           data-cache="disabled" data-append="true">
+                                        <use href="#close"></use>
+                                      </svg>
+                                    </button>
+                                  </div>
+                                </div>
+                            </div>
+                              <div class="grid-row display-flex flex-align-center padding-bottom-2 border-bottom-1px border-base margin-bottom-2">
+                                <div class="grid-col-12 desktop:grid-col-fill margin-bottom-05 desktop:margin-bottom-0">
+                                    <h2 class="font-heading-sm text-normal margin-y-0">All HPSAs</h2>
+                                </div>
+
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker  tablet:border-right-1px tablet:border-base tablet:padding-right-1">
+                                    <a onclick="captureDownload('/DataDownload/DD_Files/HPSA_DATAMART_METADATA.XLSX', 'Downloads', 'Shortage Areas', 'All HPSAs.(Metadata)XLSX');"
+                                       href="/DataDownload/DD_Files/HPSA_DATAMART_METADATA.XLSX" class="usa-link">(Metadata)XLSX</a>
+                                        <span>(Approx 27 KB)</span>
+                                    </div>
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker tablet:padding-left-1 tablet:border-right-1px tablet:border-base tablet:padding-right-1">
+                                    <a onclick="captureDownload('/DataDownload/DD_Files/BCD_HPSA_FCT_DET_PC.xlsx', 'Downloads', 'Shortage Areas', 'All HPSAs.XLSX');"
+                                       href="/DataDownload/DD_Files/BCD_HPSA_FCT_DET_PC.xlsx" class="usa-link">XLSX</a>
+                                        <span>(Approx 15 MB)</span>
+                                    </div>
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker tablet:padding-left-1 ">
+                                    <a onclick="captureDownload('/DataDownload/DD_Files/BCD_HPSA_FCT_DET_PC.csv', 'Downloads', 'Shortage Areas', 'All HPSAs.CSV');"
+                                       href="/DataDownload/DD_Files/BCD_HPSA_FCT_DET_PC.csv" class="usa-link">CSV</a>
+                                        <span>(Approx 35 MB)</span>
+                                    </div>
+                              </div>
+                              <div class="grid-row display-flex flex-align-center padding-bottom-2 border-bottom-1px border-base margin-bottom-2">
+                                <div class="grid-col-12 desktop:grid-col-fill margin-bottom-05 desktop:margin-bottom-0">
+                                    <h2 class="font-heading-sm text-normal margin-y-0">Auto-HPSA scoring</h2>
+                                </div>
+
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker  tablet:border-right-1px tablet:border-base tablet:padding-right-1">
+                                    <a onclick="captureDownload('/DataDownload/DD_Files/DD_AUTO_HPSA_SITE_METADATA.XLSX', 'Downloads', 'Shortage Areas', 'Auto-HPSA scoring.(Metadata)XLSX');"
+                                       href="/DataDownload/DD_Files/DD_AUTO_HPSA_SITE_METADATA.XLSX" class="usa-link">(Metadata)XLSX</a>
+                                        <span>(Approx 8 KB)</span>
+                                    </div>
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker tablet:padding-left-1 tablet:border-right-1px tablet:border-base tablet:padding-right-1">
+                                    <a onclick="captureDownload('/DataDownload/DD_Files/SDMS_AUTO_HPSA_SITE_PC.xlsx', 'Downloads', 'Shortage Areas', 'Auto-HPSA scoring.XLSX');"
+                                       href="/DataDownload/DD_Files/SDMS_AUTO_HPSA_SITE_PC.xlsx" class="usa-link">XLSX</a>
+                                        <span>(Approx 1.3 MB)</span>
+                                    </div>
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker tablet:padding-left-1 ">
+                                    <a onclick="captureDownload('/DataDownload/DD_Files/SDMS_AUTO_HPSA_SITE_PC.csv', 'Downloads', 'Shortage Areas', 'Auto-HPSA scoring.CSV');"
+                                       href="/DataDownload/DD_Files/SDMS_AUTO_HPSA_SITE_PC.csv" class="usa-link">CSV</a>
+                                        <span>(Approx 533 KB)</span>
+                                    </div>
+                              </div>
+                              <div class="grid-row display-flex flex-align-center padding-bottom-2 border-bottom-1px border-base margin-bottom-2">
+                                <div class="grid-col-12 desktop:grid-col-fill margin-bottom-05 desktop:margin-bottom-0">
+                                    <h2 class="font-heading-sm text-normal margin-y-0">All Facility HPSAs</h2>
+                                </div>
+
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker  tablet:border-right-1px tablet:border-base tablet:padding-right-1">
+                                    <a onclick="captureDownload('/DataDownload/HPSA/HPSAKml/HPSA%20Points%20-%20Primary%20Care.kmz', 'Downloads', 'Shortage Areas', 'All Facility HPSAs.KML');"
+                                       href="/DataDownload/HPSA/HPSAKml/HPSA%20Points%20-%20Primary%20Care.kmz" class="usa-link">KML</a>
+                                        <span>(Approx 238 KB)</span>
+                                    </div>
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker tablet:padding-left-1 ">
+                                    <a onclick="captureDownload('/DataDownload/DD_Files/HPSA_PNTPC_SHP.zip', 'Downloads', 'Shortage Areas', 'All Facility HPSAs.SHP');"
+                                       href="/DataDownload/DD_Files/HPSA_PNTPC_SHP.zip" class="usa-link">SHP</a>
+                                        <span>(Approx 8.1 MB)</span>
+                                    </div>
+                              </div>
+                              <div class="grid-row display-flex flex-align-center padding-bottom-2 border-bottom-1px border-base margin-bottom-2">
+                                <div class="grid-col-12 desktop:grid-col-fill margin-bottom-05 desktop:margin-bottom-0">
+                                    <h2 class="font-heading-sm text-normal margin-y-0">Area HPSA Component Boundaries</h2>
+                                </div>
+
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker  tablet:border-right-1px tablet:border-base tablet:padding-right-1">
+                                    <a onclick="captureDownload('/DataDownload/HPSA/HPSAKml/HPSA%20-%20Primary%20Care.kmz', 'Downloads', 'Shortage Areas', 'Area HPSA Component Boundaries.KML');"
+                                       href="/DataDownload/HPSA/HPSAKml/HPSA%20-%20Primary%20Care.kmz" class="usa-link">KML</a>
+                                        <span>(Approx 89.5 MB)</span>
+                                    </div>
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker tablet:padding-left-1 ">
+                                    <a onclick="captureDownload('/DataDownload/DD_Files/HPSA_CMPPC_SHP.zip', 'Downloads', 'Shortage Areas', 'Area HPSA Component Boundaries.SHP');"
+                                       href="/DataDownload/DD_Files/HPSA_CMPPC_SHP.zip" class="usa-link">SHP</a>
+                                        <span>(Approx 196 MB)</span>
+                                    </div>
+                              </div>
+                              <div class="grid-row display-flex flex-align-center padding-bottom-2 border-bottom-1px border-base margin-bottom-2">
+                                <div class="grid-col-12 desktop:grid-col-fill margin-bottom-05 desktop:margin-bottom-0">
+                                    <h2 class="font-heading-sm text-normal margin-y-0">Area HPSA Designation Boundaries</h2>
+                                </div>
+
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker  ">
+                                    <a onclick="captureDownload('/DataDownload/DD_Files/HPSA_PLYPC_SHP.zip', 'Downloads', 'Shortage Areas', 'Area HPSA Designation Boundaries.SHP');"
+                                       href="/DataDownload/DD_Files/HPSA_PLYPC_SHP.zip" class="usa-link">SHP</a>
+                                        <span>(Approx 104 MB)</span>
+                                    </div>
+                              </div>
+                            <div class="grid-row display-flex flex-align-center border-bottom-1px border-base tablet:border-bottom-0 margin-bottom-2">
+                              <div class="tablet:border-right-1px grid-col-12 tablet:grid-col-auto tablet:border-base-dark padding-right-1">
+                                  <h1 class="font-heading-sm tablet:font-heading-md margin-y-0">HPSA – Dental Health</h1>
+                              </div>
+                                <div class="grid-col-12 tablet:grid-col-auto margin-top-1 tablet:margin-top-0 padding-bottom-105 tablet:padding-bottom-0 tablet:padding-left-1">
+                                  <a href="#terms-modal-0-1" class="usa-link usa-link--dark" aria-controls="terms-modal-0-1" data-open-modal
+                                     onclick="captureAnalytics('Downloads','Shortage Areas','Health Professional Shortage Areas (HPSA) – Data');">
+                                    <i class="fa-regular fa-window-maximize margin-right-05"></i>
+                                    View Data Usage Terms &amp; Conditions
+                                  </a>
+                                </div>
+                                <div class="usa-modal tablet:maxw-tablet desktop:maxw-tablet-lg"
+                                     id="terms-modal-0-1"
+                                     role="dialog"
+                                     title="Data Usage Terms & Conditions"
+                                     aria-labelledby="terms-modal-0-1-head"
+                                     aria-describedby="terms-modal-0-1-desc">
+                                  <div class="usa-modal__content">
+                                    <div class="usa-modal__main">
+                                      <h2 class="usa-modal__heading text-base-darkest" id="terms-modal-0-1-head">
+                                        Data Usage Terms &amp; Conditions
+                                      </h2>
+                                      <h3 class="font-heading-sm text-base-darkest">
+                                        Health Professional Shortage Areas (HPSA) – Data
+                                      </h3>
+                                      <div class="usa-prose text-base-darker" id="terms-modal-0-1-desc">
+                                        <p><span class="text-bold">Data Published by:</span> HRSA, Bureau of Health Workforce (BHW), Division of Policy and Shortage Designation (DPSD)</p>
+                                        <p><span class="text-bold">Usage limitations:</span> None</p>
+                                      </div>
+                                      <div class="usa-modal__footer"></div>
+                                    </div>
+                                    <button type="button" class="usa-button usa-modal__close" aria-label="Close this window" data-close-modal>
+                                      <svg class="usa-icon" aria-hidden="true" focusable="false" role="img"
+                                           data-src="https://data.hrsa.gov/ux/public/uswds/img/sprite.svg#close" data-unique-ids="disabled"
+                                           data-cache="disabled" data-append="true">
+                                        <use href="#close"></use>
+                                      </svg>
+                                    </button>
+                                  </div>
+                                </div>
+                            </div>
+                              <div class="grid-row display-flex flex-align-center padding-bottom-2 border-bottom-1px border-base margin-bottom-2">
+                                <div class="grid-col-12 desktop:grid-col-fill margin-bottom-05 desktop:margin-bottom-0">
+                                    <h2 class="font-heading-sm text-normal margin-y-0">All HPSAs</h2>
+                                </div>
+
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker  tablet:border-right-1px tablet:border-base tablet:padding-right-1">
+                                    <a onclick="captureDownload('/DataDownload/DD_Files/HPSA_DATAMART_METADATA.XLSX', 'Downloads', 'Shortage Areas', 'All HPSAs.(Metadata)XLSX');"
+                                       href="/DataDownload/DD_Files/HPSA_DATAMART_METADATA.XLSX" class="usa-link">(Metadata)XLSX</a>
+                                        <span>(Approx 27 KB)</span>
+                                    </div>
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker tablet:padding-left-1 tablet:border-right-1px tablet:border-base tablet:padding-right-1">
+                                    <a onclick="captureDownload('/DataDownload/DD_Files/BCD_HPSA_FCT_DET_DH.xlsx', 'Downloads', 'Shortage Areas', 'All HPSAs.XLSX');"
+                                       href="/DataDownload/DD_Files/BCD_HPSA_FCT_DET_DH.xlsx" class="usa-link">XLSX</a>
+                                        <span>(Approx 7.6 MB)</span>
+                                    </div>
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker tablet:padding-left-1 ">
+                                    <a onclick="captureDownload('/DataDownload/DD_Files/BCD_HPSA_FCT_DET_DH.csv', 'Downloads', 'Shortage Areas', 'All HPSAs.CSV');"
+                                       href="/DataDownload/DD_Files/BCD_HPSA_FCT_DET_DH.csv" class="usa-link">CSV</a>
+                                        <span>(Approx 18 MB)</span>
+                                    </div>
+                              </div>
+                              <div class="grid-row display-flex flex-align-center padding-bottom-2 border-bottom-1px border-base margin-bottom-2">
+                                <div class="grid-col-12 desktop:grid-col-fill margin-bottom-05 desktop:margin-bottom-0">
+                                    <h2 class="font-heading-sm text-normal margin-y-0">Auto-HPSA scoring</h2>
+                                </div>
+
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker  tablet:border-right-1px tablet:border-base tablet:padding-right-1">
+                                    <a onclick="captureDownload('/DataDownload/DD_Files/DD_AUTO_HPSA_SITE_METADATA.XLSX', 'Downloads', 'Shortage Areas', 'Auto-HPSA scoring.(Metadata)XLSX');"
+                                       href="/DataDownload/DD_Files/DD_AUTO_HPSA_SITE_METADATA.XLSX" class="usa-link">(Metadata)XLSX</a>
+                                        <span>(Approx 8 KB)</span>
+                                    </div>
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker tablet:padding-left-1 tablet:border-right-1px tablet:border-base tablet:padding-right-1">
+                                    <a onclick="captureDownload('/DataDownload/DD_Files/SDMS_AUTO_HPSA_SITE_DH.xlsx', 'Downloads', 'Shortage Areas', 'Auto-HPSA scoring.XLSX');"
+                                       href="/DataDownload/DD_Files/SDMS_AUTO_HPSA_SITE_DH.xlsx" class="usa-link">XLSX</a>
+                                        <span>(Approx 470 KB)</span>
+                                    </div>
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker tablet:padding-left-1 ">
+                                    <a onclick="captureDownload('/DataDownload/DD_Files/SDMS_AUTO_HPSA_SITE_DH.csv', 'Downloads', 'Shortage Areas', 'Auto-HPSA scoring.CSV');"
+                                       href="/DataDownload/DD_Files/SDMS_AUTO_HPSA_SITE_DH.csv" class="usa-link">CSV</a>
+                                        <span>(Approx 1.1 MB)</span>
+                                    </div>
+                              </div>
+                              <div class="grid-row display-flex flex-align-center padding-bottom-2 border-bottom-1px border-base margin-bottom-2">
+                                <div class="grid-col-12 desktop:grid-col-fill margin-bottom-05 desktop:margin-bottom-0">
+                                    <h2 class="font-heading-sm text-normal margin-y-0">All Facility HPSAs</h2>
+                                </div>
+
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker  tablet:border-right-1px tablet:border-base tablet:padding-right-1">
+                                    <a onclick="captureDownload('/DataDownload/HPSA/HPSAKml/HPSA%20Points%20-%20Dental%20Health.kmz', 'Downloads', 'Shortage Areas', 'All Facility HPSAs.KML');"
+                                       href="/DataDownload/HPSA/HPSAKml/HPSA%20Points%20-%20Dental%20Health.kmz" class="usa-link">KML</a>
+                                        <span>(Approx 233 KB)</span>
+                                    </div>
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker tablet:padding-left-1 ">
+                                    <a onclick="captureDownload('/DataDownload/DD_Files/HPSA_PNTDH_SHP.zip', 'Downloads', 'Shortage Areas', 'All Facility HPSAs.SHP');"
+                                       href="/DataDownload/DD_Files/HPSA_PNTDH_SHP.zip" class="usa-link">SHP</a>
+                                        <span>(Approx 7 MB)</span>
+                                    </div>
+                              </div>
+                              <div class="grid-row display-flex flex-align-center padding-bottom-2 border-bottom-1px border-base margin-bottom-2">
+                                <div class="grid-col-12 desktop:grid-col-fill margin-bottom-05 desktop:margin-bottom-0">
+                                    <h2 class="font-heading-sm text-normal margin-y-0">Area HPSA Component Boundaries</h2>
+                                </div>
+
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker  tablet:border-right-1px tablet:border-base tablet:padding-right-1">
+                                    <a onclick="captureDownload('/DataDownload/HPSA/HPSAKml/HPSA%20-%20Dental%20Health.kmz', 'Downloads', 'Shortage Areas', 'Area HPSA Component Boundaries.KML');"
+                                       href="/DataDownload/HPSA/HPSAKml/HPSA%20-%20Dental%20Health.kmz" class="usa-link">KML</a>
+                                        <span>(Approx 65.8 MB)</span>
+                                    </div>
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker tablet:padding-left-1 ">
+                                    <a onclick="captureDownload('/DataDownload/DD_Files/HPSA_CMPDH_SHP.zip', 'Downloads', 'Shortage Areas', 'Area HPSA Component Boundaries.SHP');"
+                                       href="/DataDownload/DD_Files/HPSA_CMPDH_SHP.zip" class="usa-link">SHP</a>
+                                        <span>(Approx 138 MB)</span>
+                                    </div>
+                              </div>
+                              <div class="grid-row display-flex flex-align-center padding-bottom-2 border-bottom-1px border-base margin-bottom-2">
+                                <div class="grid-col-12 desktop:grid-col-fill margin-bottom-05 desktop:margin-bottom-0">
+                                    <h2 class="font-heading-sm text-normal margin-y-0">Area HPSA Designation Boundaries</h2>
+                                </div>
+
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker  ">
+                                    <a onclick="captureDownload('/DataDownload/DD_Files/HPSA_PLYDH_SHP.zip', 'Downloads', 'Shortage Areas', 'Area HPSA Designation Boundaries.SHP');"
+                                       href="/DataDownload/DD_Files/HPSA_PLYDH_SHP.zip" class="usa-link">SHP</a>
+                                        <span>(Approx 84 MB)</span>
+                                    </div>
+                              </div>
+                            <div class="grid-row display-flex flex-align-center border-bottom-1px border-base tablet:border-bottom-0 margin-bottom-2">
+                              <div class="tablet:border-right-1px grid-col-12 tablet:grid-col-auto tablet:border-base-dark padding-right-1">
+                                  <h1 class="font-heading-sm tablet:font-heading-md margin-y-0">HPSA – Mental Health</h1>
+                              </div>
+                                <div class="grid-col-12 tablet:grid-col-auto margin-top-1 tablet:margin-top-0 padding-bottom-105 tablet:padding-bottom-0 tablet:padding-left-1">
+                                  <a href="#terms-modal-0-2" class="usa-link usa-link--dark" aria-controls="terms-modal-0-2" data-open-modal
+                                     onclick="captureAnalytics('Downloads','Shortage Areas','Health Professional Shortage Areas (HPSA) – Data');">
+                                    <i class="fa-regular fa-window-maximize margin-right-05"></i>
+                                    View Data Usage Terms &amp; Conditions
+                                  </a>
+                                </div>
+                                <div class="usa-modal tablet:maxw-tablet desktop:maxw-tablet-lg"
+                                     id="terms-modal-0-2"
+                                     role="dialog"
+                                     title="Data Usage Terms & Conditions"
+                                     aria-labelledby="terms-modal-0-2-head"
+                                     aria-describedby="terms-modal-0-2-desc">
+                                  <div class="usa-modal__content">
+                                    <div class="usa-modal__main">
+                                      <h2 class="usa-modal__heading text-base-darkest" id="terms-modal-0-2-head">
+                                        Data Usage Terms &amp; Conditions
+                                      </h2>
+                                      <h3 class="font-heading-sm text-base-darkest">
+                                        Health Professional Shortage Areas (HPSA) – Data
+                                      </h3>
+                                      <div class="usa-prose text-base-darker" id="terms-modal-0-2-desc">
+                                        <p><span class="text-bold">Data Published by:</span> HRSA, Bureau of Health Workforce (BHW), Division of Policy and Shortage Designation (DPSD)</p>
+                                        <p><span class="text-bold">Usage limitations:</span> None</p>
+                                      </div>
+                                      <div class="usa-modal__footer"></div>
+                                    </div>
+                                    <button type="button" class="usa-button usa-modal__close" aria-label="Close this window" data-close-modal>
+                                      <svg class="usa-icon" aria-hidden="true" focusable="false" role="img"
+                                           data-src="https://data.hrsa.gov/ux/public/uswds/img/sprite.svg#close" data-unique-ids="disabled"
+                                           data-cache="disabled" data-append="true">
+                                        <use href="#close"></use>
+                                      </svg>
+                                    </button>
+                                  </div>
+                                </div>
+                            </div>
+                              <div class="grid-row display-flex flex-align-center padding-bottom-2 border-bottom-1px border-base margin-bottom-2">
+                                <div class="grid-col-12 desktop:grid-col-fill margin-bottom-05 desktop:margin-bottom-0">
+                                    <h2 class="font-heading-sm text-normal margin-y-0">All HPSAs</h2>
+                                </div>
+
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker  tablet:border-right-1px tablet:border-base tablet:padding-right-1">
+                                    <a onclick="captureDownload('/DataDownload/DD_Files/HPSA_DATAMART_METADATA.XLSX', 'Downloads', 'Shortage Areas', 'All HPSAs.(Metadata)XLSX');"
+                                       href="/DataDownload/DD_Files/HPSA_DATAMART_METADATA.XLSX" class="usa-link">(Metadata)XLSX</a>
+                                        <span>(Approx 27 KB)</span>
+                                    </div>
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker tablet:padding-left-1 tablet:border-right-1px tablet:border-base tablet:padding-right-1">
+                                    <a onclick="captureDownload('/DataDownload/DD_Files/BCD_HPSA_FCT_DET_MH.xlsx', 'Downloads', 'Shortage Areas', 'All HPSAs.XLSX');"
+                                       href="/DataDownload/DD_Files/BCD_HPSA_FCT_DET_MH.xlsx" class="usa-link">XLSX</a>
+                                        <span>(Approx 6 MB)</span>
+                                    </div>
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker tablet:padding-left-1 ">
+                                    <a onclick="captureDownload('/DataDownload/DD_Files/BCD_HPSA_FCT_DET_MH.csv', 'Downloads', 'Shortage Areas', 'All HPSAs.CSV');"
+                                       href="/DataDownload/DD_Files/BCD_HPSA_FCT_DET_MH.csv" class="usa-link">CSV</a>
+                                        <span>(Approx 14 MB)</span>
+                                    </div>
+                              </div>
+                              <div class="grid-row display-flex flex-align-center padding-bottom-2 border-bottom-1px border-base margin-bottom-2">
+                                <div class="grid-col-12 desktop:grid-col-fill margin-bottom-05 desktop:margin-bottom-0">
+                                    <h2 class="font-heading-sm text-normal margin-y-0">Auto-HPSA scoring</h2>
+                                </div>
+
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker  tablet:border-right-1px tablet:border-base tablet:padding-right-1">
+                                    <a onclick="captureDownload('/DataDownload/DD_Files/DD_AUTO_HPSA_SITE_METADATA.XLSX', 'Downloads', 'Shortage Areas', 'Auto-HPSA scoring.(Metadata)XLSX');"
+                                       href="/DataDownload/DD_Files/DD_AUTO_HPSA_SITE_METADATA.XLSX" class="usa-link">(Metadata)XLSX</a>
+                                        <span>(Approx 8 KB)</span>
+                                    </div>
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker tablet:padding-left-1 tablet:border-right-1px tablet:border-base tablet:padding-right-1">
+                                    <a onclick="captureDownload('/DataDownload/DD_Files/SDMS_AUTO_HPSA_SITE_MH.xlsx', 'Downloads', 'Shortage Areas', 'Auto-HPSA scoring.XLSX');"
+                                       href="/DataDownload/DD_Files/SDMS_AUTO_HPSA_SITE_MH.xlsx" class="usa-link">XLSX</a>
+                                        <span>(Approx 1.1 MB)</span>
+                                    </div>
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker tablet:padding-left-1 ">
+                                    <a onclick="captureDownload('/DataDownload/DD_Files/SDMS_AUTO_HPSA_SITE_MH.csv', 'Downloads', 'Shortage Areas', 'Auto-HPSA scoring.CSV');"
+                                       href="/DataDownload/DD_Files/SDMS_AUTO_HPSA_SITE_MH.csv" class="usa-link">CSV</a>
+                                        <span>(Approx 459 KB)</span>
+                                    </div>
+                              </div>
+                              <div class="grid-row display-flex flex-align-center padding-bottom-2 border-bottom-1px border-base margin-bottom-2">
+                                <div class="grid-col-12 desktop:grid-col-fill margin-bottom-05 desktop:margin-bottom-0">
+                                    <h2 class="font-heading-sm text-normal margin-y-0">All Facility HPSAs</h2>
+                                </div>
+
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker  tablet:border-right-1px tablet:border-base tablet:padding-right-1">
+                                    <a onclick="captureDownload('/DataDownload/HPSA/HPSAKml/HPSA%20Points%20-%20Mental%20Health.kmz', 'Downloads', 'Shortage Areas', 'All Facility HPSAs.KML');"
+                                       href="/DataDownload/HPSA/HPSAKml/HPSA%20Points%20-%20Mental%20Health.kmz" class="usa-link">KML</a>
+                                        <span>(Approx 242 KB)</span>
+                                    </div>
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker tablet:padding-left-1 ">
+                                    <a onclick="captureDownload('/DataDownload/DD_Files/HPSA_PNTMH_SHP.zip', 'Downloads', 'Shortage Areas', 'All Facility HPSAs.SHP');"
+                                       href="/DataDownload/DD_Files/HPSA_PNTMH_SHP.zip" class="usa-link">SHP</a>
+                                        <span>(Approx 7.3 MB)</span>
+                                    </div>
+                              </div>
+                              <div class="grid-row display-flex flex-align-center padding-bottom-2 border-bottom-1px border-base margin-bottom-2">
+                                <div class="grid-col-12 desktop:grid-col-fill margin-bottom-05 desktop:margin-bottom-0">
+                                    <h2 class="font-heading-sm text-normal margin-y-0">Area HPSA Component Boundaries</h2>
+                                </div>
+
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker  tablet:border-right-1px tablet:border-base tablet:padding-right-1">
+                                    <a onclick="captureDownload('/DataDownload/HPSA/HPSAKml/HPSA%20-%20Mental%20Health.kmz', 'Downloads', 'Shortage Areas', 'Area HPSA Component Boundaries.KML');"
+                                       href="/DataDownload/HPSA/HPSAKml/HPSA%20-%20Mental%20Health.kmz" class="usa-link">KML</a>
+                                        <span>(Approx 74.8 MB)</span>
+                                    </div>
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker tablet:padding-left-1 ">
+                                    <a onclick="captureDownload('/DataDownload/DD_Files/HPSA_CMPMH_SHP.zip', 'Downloads', 'Shortage Areas', 'Area HPSA Component Boundaries.SHP');"
+                                       href="/DataDownload/DD_Files/HPSA_CMPMH_SHP.zip" class="usa-link">SHP</a>
+                                        <span>(Approx 152 MB)</span>
+                                    </div>
+                              </div>
+                              <div class="grid-row display-flex flex-align-center padding-bottom-2 border-bottom-1px border-base margin-bottom-2">
+                                <div class="grid-col-12 desktop:grid-col-fill margin-bottom-05 desktop:margin-bottom-0">
+                                    <h2 class="font-heading-sm text-normal margin-y-0">Area HPSA Designation Boundaries</h2>
+                                </div>
+
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker  ">
+                                    <a onclick="captureDownload('/DataDownload/DD_Files/HPSA_PLYMH_SHP.zip', 'Downloads', 'Shortage Areas', 'Area HPSA Designation Boundaries.SHP');"
+                                       href="/DataDownload/DD_Files/HPSA_PLYMH_SHP.zip" class="usa-link">SHP</a>
+                                        <span>(Approx 71 MB)</span>
+                                    </div>
+                              </div>
+                            <div class="grid-row display-flex flex-align-center border-bottom-1px border-base tablet:border-bottom-0 margin-bottom-2">
+                              <div class="tablet:border-right-1px grid-col-12 tablet:grid-col-auto tablet:border-base-dark padding-right-1">
+                                  <h1 class="font-heading-sm tablet:font-heading-md margin-y-0">Medically Underserved Areas/Populations (MUA/P)</h1>
+                              </div>
+                                <div class="grid-col-12 tablet:grid-col-auto margin-top-1 tablet:margin-top-0 padding-bottom-105 tablet:padding-bottom-0 tablet:padding-left-1">
+                                  <a href="#terms-modal-0-3" class="usa-link usa-link--dark" aria-controls="terms-modal-0-3" data-open-modal
+                                     onclick="captureAnalytics('Downloads','Shortage Areas','Health Professional Shortage Areas (HPSA) – Data');">
+                                    <i class="fa-regular fa-window-maximize margin-right-05"></i>
+                                    View Data Usage Terms &amp; Conditions
+                                  </a>
+                                </div>
+                                <div class="usa-modal tablet:maxw-tablet desktop:maxw-tablet-lg"
+                                     id="terms-modal-0-3"
+                                     role="dialog"
+                                     title="Data Usage Terms & Conditions"
+                                     aria-labelledby="terms-modal-0-3-head"
+                                     aria-describedby="terms-modal-0-3-desc">
+                                  <div class="usa-modal__content">
+                                    <div class="usa-modal__main">
+                                      <h2 class="usa-modal__heading text-base-darkest" id="terms-modal-0-3-head">
+                                        Data Usage Terms &amp; Conditions
+                                      </h2>
+                                      <h3 class="font-heading-sm text-base-darkest">
+                                        Health Professional Shortage Areas (HPSA) – Data
+                                      </h3>
+                                      <div class="usa-prose text-base-darker" id="terms-modal-0-3-desc">
+                                        <p><span class="text-bold">Data Published by:</span> HRSA, Bureau of Health Workforce (BHW), Division of Policy and Shortage Designation (DPSD)</p>
+                                        <p><span class="text-bold">Usage limitations:</span> None</p>
+                                      </div>
+                                      <div class="usa-modal__footer"></div>
+                                    </div>
+                                    <button type="button" class="usa-button usa-modal__close" aria-label="Close this window" data-close-modal>
+                                      <svg class="usa-icon" aria-hidden="true" focusable="false" role="img"
+                                           data-src="https://data.hrsa.gov/ux/public/uswds/img/sprite.svg#close" data-unique-ids="disabled"
+                                           data-cache="disabled" data-append="true">
+                                        <use href="#close"></use>
+                                      </svg>
+                                    </button>
+                                  </div>
+                                </div>
+                            </div>
+                              <div class="grid-row display-flex flex-align-center padding-bottom-2 border-bottom-1px border-base margin-bottom-2">
+                                <div class="grid-col-12 desktop:grid-col-fill margin-bottom-05 desktop:margin-bottom-0">
+                                    <h2 class="font-heading-sm text-normal margin-y-0">MUA/P</h2>
+                                </div>
+
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker  tablet:border-right-1px tablet:border-base tablet:padding-right-1">
+                                    <a onclick="captureDownload('/DataDownload/DD_Files/MUA_DATAMART_METADATA.XLSX', 'Downloads', 'Shortage Areas', 'MUA/P.(Metadata)XLSX');"
+                                       href="/DataDownload/DD_Files/MUA_DATAMART_METADATA.XLSX" class="usa-link">(Metadata)XLSX</a>
+                                        <span>(Approx 33 KB)</span>
+                                    </div>
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker tablet:padding-left-1 tablet:border-right-1px tablet:border-base tablet:padding-right-1">
+                                    <a onclick="captureDownload('/DataDownload/DD_Files/MUA_DET.xlsx', 'Downloads', 'Shortage Areas', 'MUA/P.XLSX');"
+                                       href="/DataDownload/DD_Files/MUA_DET.xlsx" class="usa-link">XLSX</a>
+                                        <span>(Approx 4.7 MB)</span>
+                                    </div>
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker tablet:padding-left-1 ">
+                                    <a onclick="captureDownload('/DataDownload/DD_Files/MUA_DET.csv', 'Downloads', 'Shortage Areas', 'MUA/P.CSV');"
+                                       href="/DataDownload/DD_Files/MUA_DET.csv" class="usa-link">CSV</a>
+                                        <span>(Approx 11 MB)</span>
+                                    </div>
+                              </div>
+                              <div class="grid-row display-flex flex-align-center padding-bottom-2 border-bottom-1px border-base margin-bottom-2">
+                                <div class="grid-col-12 desktop:grid-col-fill margin-bottom-05 desktop:margin-bottom-0">
+                                    <h2 class="font-heading-sm text-normal margin-y-0">MUA/P Designation Boundaries</h2>
+                                </div>
+
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker  ">
+                                    <a onclick="captureDownload('/DataDownload/DD_Files/MUA_SHP.zip', 'Downloads', 'Shortage Areas', 'MUA/P Designation Boundaries.SHP');"
+                                       href="/DataDownload/DD_Files/MUA_SHP.zip" class="usa-link">SHP</a>
+                                        <span>(Approx 117 MB)</span>
+                                    </div>
+                              </div>
+                              <div class="grid-row display-flex flex-align-center padding-bottom-2 border-bottom-1px border-base margin-bottom-2">
+                                <div class="grid-col-12 desktop:grid-col-fill margin-bottom-05 desktop:margin-bottom-0">
+                                    <h2 class="font-heading-sm text-normal margin-y-0">MUA/P Component Boundaries</h2>
+                                </div>
+
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker  tablet:border-right-1px tablet:border-base tablet:padding-right-1">
+                                    <a onclick="captureDownload('/DataDownload/MUA/MUA.kmz', 'Downloads', 'Shortage Areas', 'MUA/P Component Boundaries.KML');"
+                                       href="/DataDownload/MUA/MUA.kmz" class="usa-link">KML</a>
+                                        <span>(Approx 57.6 MB)</span>
+                                    </div>
+                                  <div class="grid-col-12 tablet:grid-col-auto text-base-darker tablet:padding-left-1 ">
+                                    <a onclick="captureDownload('/DataDownload/DD_Files/MUA_CMPPC_SHP.zip', 'Downloads', 'Shortage Areas', 'MUA/P Component Boundaries.SHP');"
+                                       href="/DataDownload/DD_Files/MUA_CMPPC_SHP.zip" class="usa-link">SHP</a>
+                                        <span>(Approx 190 MB)</span>
+                                    </div>
+                              </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section aria-label="Pagination"
+           class="grid-container padding-x-2 tablet:padding-x-4 desktop:padding-x-0 margin-top-1 padding-bottom-3 tablet:padding-bottom-6">
+    <div class="grid-col-12 desktop:grid-col-10 desktop:grid-offset-1">
+      <div class="grid-container font-ui-sm">
+        <div class="grid-row text-no-wrap">
+          <div class="grid-col-12 tablet:grid-col-auto tablet:padding-right-0 display-flex flex-align-center result-number">
+          </div>
+          <div class="grid-col-12 tablet:grid-col-auto flex-fill margin-top-2 tablet:margin-top-0 display-flex flex-align-center">
+            <label for="PageSizeBottom">Show</label>
+            <select class="usa-select width-auto inline-block margin-x-1 margin-top-0"
+                    name="PageSizeBottom" id="PageSizeBottom">
+              <option>10</option>
+              <option>25</option>
+              <option>50</option>
+            </select>
+            data sets per page
+          </div>
+          <div class="grid-col-12 desktop:grid-col-auto">
+            <nav aria-label="Data Set Pagination" class="usa-pagination margin-left-0 bg-transparent flex-justify-start">
+              <ul class="usa-pagination__list">
+                <li class="usa-pagination__item usa-pagination__arrow margin-left-0">
+                  <a href="#" class="usa-pagination__link first" aria-label="First page">
+                    <i class="fa-solid fa-backward-step"></i>
+                  </a>
+                </li>
+                <li class="usa-pagination__item usa-pagination__arrow">
+                  <a href="#" class="usa-pagination__link prev" aria-label="Previous page">
+                    <i class="fa-solid fa-chevron-left"></i>
+                  </a>
+                </li>
+
+                <li class="usa-pagination__item usa-pagination__arrow">
+                  <a href="#" class="usa-pagination__link next" aria-label="Next page">
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </a>
+                </li>
+                <li class="usa-pagination__item usa-pagination__arrow margin-right-0">
+                  <a href="#" class="usa-pagination__link last" aria-label="Last page">
+                    <i class="fa-solid fa-forward-step"></i>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+</div>
+
+  <!-- USWDS FOOTER -->
+  
+<footer class="usa-footer usa-footer--big">
+  <div class="usa-footer__return-to-top-container no-print">
+    <div class="usa-footer__return-to-top">
+      <a href="#" aria-label="Return to top">
+        <i class="fa-solid fa-xl fa-chevron-up line-height-serif-1"></i>
+        <span>Top</span>
+      </a>
+    </div>
+  </div>
+  <div class="usa-footer__primary-section bg-primary-darker text-white">
+    <div class="grid-container">
+      <div class="grid-row">
+        <div class="grid-col-12 desktop:grid-col-6">
+          <nav class="usa-footer__nav" aria-label="Footer navigation">
+            <div class="grid-row">
+              <div class="usa-footer__logo margin-bottom-2 tablet:margin-bottom-6 grid-col-12 tablet-lg:grid-col-auto print-no-margin">
+                <svg aria-hidden="true" focusable="false" role="img" aria-label="HRSA Data Warehouse" 
+                     viewBox="0 0 124 48" height="48" data-src="https://data.hrsa.gov/ux/common/img/hdw-logo.svg#logo" 
+                     data-unique-id-prefix="hdw-footer" data-cache="disabled" data-append="true">
+                  <use href="#hdw-footer-logo"></use>
+                </svg>
+              </div>
+              <div class="grid-col-12 desktop:grid-col-6 desktop:padding-x-6">
+                <div class="usa-footer__primary-content padding-x-0 padding-bottom-2 tablet:padding-bottom-3">
+                  <ul class="usa-list usa-list--unstyled">
+                    <li class="usa-footer__secondary-link">
+                      <a class="hover:text-underline" href="/about/aboutus">About Us</a>
+                    </li>
+                    <li class="usa-footer__secondary-link">
+                      <a class="hover:text-underline" href="/about/a-to-z">A to Z Index</a>
+                    </li>
+                    <li class="usa-footer__secondary-link">
+                      <a class="hover:text-underline" href="/about/faq">FAQs</a>
+                    </li>
+                    <li class="usa-footer__secondary-link">
+                      <a class="hover:text-underline" href="/about/site-map">Site Map</a>
+                    </li>
+                    <li class="usa-footer__secondary-link display-none desktop:display-block">
+                      <a href="https://mydata.hrsa.gov/" class="hover:text-underline">HDW Internal Sign On</a>
+                      <span class="rich-tooltip rich-tooltip--inverse">
+                        <span class="rich-tooltip__trigger display-inline-block" tabindex="0">
+                          <i class="fa-regular fa-info-circle"></i>
+                        </span>
+
+                        <span class="rich-tooltip rich-tooltip__container maxw-card widescreen:maxw-card-lg">
+                          <span class="rich-tooltip__body text-normal">
+                            The MyData site is an internal repository of HRSA data.
+                            It is only accessible to HRSA staff and authentication is required.
+                          </span>
+                        </span>
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="grid-col-12 desktop:grid-col-6 tablet:position-absolute desktop:position-relative tablet:text-right">
+          <div class="padding-bottom-205 tablet:padding-top-205 padding-x-2 tablet:padding-x-4 desktop:padding-x-5">
+            <a href="mailto:data@hrsa.gov" class="usa-button usa-button--outline usa-button--inverse font-ui-2xs width-auto margin-right-0">Contact Us for Support</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="usa-footer__secondary-section">
+    <div class="grid-container">
+      <div class="grid-row padding-x-2 tablet:padding-x-4 desktop:padding-x-5">
+        <div class="widescreen:grid-col-auto grid-col-12 display-flex tablet:flex-justify-center">
+          <div class="usa-footer__nav grid-row flex-align-self-center">
+            <div class="usa-footer__secondary-content">
+              <ul class="usa-list usa-list--unstyled display-block tablet:display-flex flex-wrap flex-justify-center">
+                <li class="usa-footer__secondary-link tablet:margin-left-neg-1">
+                  <a href="https://www.hhs.gov/plugins.html" class="hover:text-primary-darker" target="_blank">Viewers & Players</a>
+                </li>
+                <li class="usa-footer__secondary-link">
+                  <a href="https://www.hhs.gov/privacy.html" class="hover:text-primary-darker" target="_blank">Privacy Policy</a>
+                </li>
+                <li class="usa-footer__secondary-link">
+                  <a href="https://www.hhs.gov/disclaimer.html" class="hover:text-primary-darker" target="_blank">Disclaimers</a>
+                </li>
+                <li class="usa-footer__secondary-link">
+                  <a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" class="hover:text-primary-darker" target="_blank">Vulnerability Disclosure Policy</a>
+                </li>
+                <li class="usa-footer__secondary-link">
+                  <a href="https://www.hrsa.gov/about/508-resources.html" class="hover:text-primary-darker" target="_blank">Accessibility</a>
+                </li>
+                <li class="usa-footer__secondary-link">
+                  <a href="https://www.hrsa.gov/foia/index.html" target="_blank">Freedom of Information Act</a>
+                </li>
+                <li class="usa-footer__secondary-link">
+                  <a href="https://www.usa.gov/" class="hover:text-primary-darker" target="_blank">USA.gov</a>
+                </li>
+                <li class="usa-footer__secondary-link">
+                  <a href="https://www.whitehouse.gov/" class="hover:text-primary-darker" target="_blank">WhiteHouse.gov</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="widescreen:grid-col-auto grid-col-12">
+          <div class="usa-footer__contact-links margin-top-3 desktop:margin-top-105 widescreen:margin-y-0 widescreen:margin-right-neg-2">
+            <div class="usa-footer__social-links grid-row grid-gap-1 flex-justify-start tablet:flex-justify-center widescreen:flex-justify-end">
+              <div class="grid-col-auto flex-align-self-end">
+                <a href="https://www.hrsa.gov/" target="_blank" title="HRSA Health Resources & Services Administration" class="text-base-darker">
+                  <svg aria-hidden="true" focusable="false" role="img" aria-label="HRSA Data Warehouse"
+                       viewBox="0 0 100 34" height="34" data-src="https://data.hrsa.gov/ux/common/img/hrsa-logo.svg#logo"
+                       data-unique-id-prefix="hrsa-footer" data-cache="disabled" data-append="true">
+                    <use href="#hrsa-footer-logo"></use>
+                  </svg>
+                </a>
+              </div>
+              <div class="grid-col-auto">
+                <a class="usa-social-link" href="https://www.facebook.com/HRSAgov/" target="_blank"
+                   title="Visit the HRSA Facebook account">
+                  <svg class="usa-icon" aria-hidden="true" focusable="false" role="img"
+                       data-src="https://data.hrsa.gov/ux/public/uswds/img/sprite.svg#facebook"
+                       data-append="true" data-unique-ids="disabled" data-cache="disabled">
+                    <use href="#facebook" />
+                  </svg>
+                </a>
+                <a class="usa-social-link" href="https://youtube.com/user/hrsatube" target="_blank"
+                   title="Visit the HRSA YouTube account">
+                  <svg class="usa-icon" aria-hidden="true" focusable="false" role="img"
+                       data-src="https://data.hrsa.gov/ux/public/uswds/img/sprite.svg#youtube"
+                       data-append="true" data-unique-ids="disabled" data-cache="disabled">
+                    <use href="#youtube" />
+                  </svg>
+                </a>
+                <a class="usa-social-link" href="https://twitter.com/hrsagov" target="_blank"
+                   title="Visit the HRSA X (Twitter) account">
+                  <svg class="usa-icon" aria-hidden="true" focusable="false" role="img"
+                       data-src="https://data.hrsa.gov/ux/public/uswds/img/sprite.svg#x"
+                       data-append="true" data-unique-ids="disabled" data-cache="disabled">
+                    <use href="#x" />
+                  </svg>
+                </a>
+                <a class="usa-social-link" href="https://instagram.com/hrsagov/" target="_blank"
+                   title="Visit the HRSA Instagram account">
+                  <svg class="usa-icon" aria-hidden="true" focusable="false" role="img"
+                       data-src="https://data.hrsa.gov/ux/public/uswds/img/sprite.svg#instagram"
+                       data-append="true" data-unique-ids="disabled" data-cache="disabled">
+                    <use href="#instagram" />
+                  </svg>
+                </a>
+                <a class="usa-social-link" href="https://www.linkedin.com/company/us-government-department-of-health-&-human-services-hrsa" target="_blank"
+                   title="Visit the HRSA LinkedIn account">
+                  <svg class="usa-icon" aria-hidden="true" focusable="false" role="img"
+                       data-src="https://data.hrsa.gov/ux/public/uswds/img/sprite.svg#linkedin"
+                       data-append="true" data-unique-ids="disabled" data-cache="disabled">
+                    <use href="#linkedin" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <!-- END USWDS FOOTER -->
+  <!-- Placeholder for page-specific scripts that can be loaded after main page content -->
+  
+	<!-- Dynamic "Read More" link binding -->
+	<script src="https://data.hrsa.gov/ux/common/js/read-more.js"></script>
+	<!-- Pagination Scripts -->
+	<script>
+		$(document).ready(function () {
+			const items = $('.usa-card-group .usa-card'); // updated selector
+			const totalItems = items.length;
+			const dropdown = $('#PageSizeBottom');
+			let itemsPerPage = 10;
+			let totalPages = 1;
+
+			// function that scrolls to form HTML element, when filters are selected
+			function focusDiv() {
+                const firstDiv = document.getElementById("frmDataDl");
+				if (firstDiv) {
+                    firstDiv.scrollIntoView({ behavior: 'smooth' });
+				}
+			}
+
+			// checks if the form was submitted to the server/POST call made
+
+			totalPages = Math.ceil(totalItems / itemsPerPage);
+
+			function showPage(page) {
+				const start = (page - 1) * itemsPerPage;
+				const end = Math.min(start + itemsPerPage, totalItems);
+				items.hide().slice(start, end).show();
+
+				updatePaginationMessage(start + 1, end, totalItems);
+				renderPageNumbers(page);
+				toggleNavButtons(page);
+			}
+
+			function updatePaginationMessage(start, end, total) {
+				const message = `Showing
+										  <span class="text-bold margin-x-1">${start} - ${end}</span> of
+										  <span class="text-bold margin-x-1">${total}</span>
+										  <span class="tablet:border-right-1px tablet:border-base tablet:padding-right-2 tablet:margin-right-2">data sets</span>`;
+				$('.result-number').html(message);
+
+				const currentPageCount = end - start + 1;
+				const msg = `<span class="font-ui-xs">Viewing ${currentPageCount} of ${total} data sets</span>`;
+				$('.dataset-count').html(msg);
+			}
+
+			function renderPageNumbers(currentPage) {
+				const maxVisible = 5;
+				const container = $('.usa-pagination__list');
+				container.find('.usa-pagination__page-no').remove();
+
+				let startPage = Math.max(1, currentPage - Math.floor(maxVisible / 2));
+				let endPage = Math.min(totalPages, startPage + maxVisible - 1);
+
+				if (endPage - startPage < maxVisible - 1) {
+					startPage = Math.max(1, endPage - maxVisible + 1);
+				}
+
+				const nextButton = container.find('.next').closest('li');
+
+				for (let i = startPage; i <= endPage; i++) {
+					const isActive = i === currentPage ? 'usa-current' : '';
+					const aria = i === currentPage ? 'aria-current="page"' : '';
+					const li = $(`
+						  <li class="usa-pagination__item usa-pagination__page-no">
+							  <a href="#" class="usa-pagination__button ${isActive}" ${aria} data-page="${i}">${i}</a>
+						  </li>`);
+
+					li.insertBefore(nextButton);
+				}
+			}
+
+			function toggleNavButtons(currentPage) {
+				$('.first, .prev').toggleClass('usa-disabled', currentPage === 1);
+				$('.last, .next').toggleClass('usa-disabled', currentPage === totalPages);
+			}
+
+			dropdown.change(function () {
+				itemsPerPage = parseInt($(this).val());
+				totalPages = Math.ceil(totalItems / itemsPerPage);
+				showPage(1);
+			});
+
+			$(document).on('click', '.usa-pagination__button[data-page]', function (e) {
+				e.preventDefault();
+				const page = parseInt($(this).data('page'));
+				showPage(page);
+			});
+
+			$('.first').click(() => showPage(1));
+			$('.last').click(() => showPage(totalPages));
+			$('.prev').click(() => {
+				const current = parseInt($('.usa-pagination__button.usa-current').data('page'));
+				if (current > 1) showPage(current - 1);
+			});
+			$('.next').click(() => {
+				const current = parseInt($('.usa-pagination__button.usa-current').data('page'));
+				if (current < totalPages) showPage(current + 1);
+			});
+
+			showPage(1);
+		});
+    </script>
+	<!-- Analytics -->
+	<script>
+		var EVENTNAME = "data_download_click";
+		var PAGENAME = "data_download";
+		function captureAnalytics(section, subSection, linkClicked) {
+			window.dataLayer.push({
+				"event": EVENTNAME,
+				"page_name": PAGENAME,
+				"section": section,
+				"sub_section": subSection,
+				"link_clicked": linkClicked
+			});
+		}
+		function captureCardToggle(title, element) {
+			if (!$(element).closest('.accordion-item').attr('aria-expanded') === 'true') {
+				captureAnalytics("Downloads", title, "Expand");
+			}
+		}
+		function captureDropdown(section, linkClicked) {
+			window.dataLayer.push({
+				"event": EVENTNAME,
+				"page_name": PAGENAME,
+				"section": section,
+				"link_clicked": linkClicked
+			});
+
+			document.getElementById("frmDataDl").submit();
+		}
+		function captureDownload(link, section, subSection, linkClicked) {
+			window.dataLayer.push({
+				"event": EVENTNAME,
+				"page_name": PAGENAME,
+				"section": section,
+				"sub_section": subSection,
+				"link_clicked": linkClicked
+			});
+			window.location = link;
+		}
+		function GetDUTC(title, origin, usage) {
+			$("#termsMetadata").text(title);
+			$("#termsOriginator").text(origin);
+			$("#termsLimitations").text(usage);
+			$("#termsModal").show();
+		}
+	</script>
+
+
+  <script src="https://data.hrsa.gov/ux/common/js/svg-loader.js"></script>
+  <script src="https://data.hrsa.gov/ux/public/uswds/js/uswds.min.js"></script>
+
+  <script src="/Scripts/hdwScript.js"></script>
+  <script>
+    $(document).ready(function () {
+      GetNotifications('1', '3');
+      GetNotifications('1', '2');
+      GetNotifications('1', '1');
+	  });
+  </script>
+</body>
+</html>

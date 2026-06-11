@@ -1,5 +1,5 @@
 {
-  "retrieved_at": "2026-06-11T17:06:19.080797+00:00",
+  "retrieved_at": "2026-06-11T19:23:21.234240+00:00",
   "run_config": {
     "state_fips": "17",
     "county_fips": "031",
@@ -14,7 +14,22 @@
       "state",
       "us"
     ],
-    "verbose": true
+    "verbose": true,
+    "annual_years": 10,
+    "bls_target_year": 2025,
+    "hud_year": 2025,
+    "hud_coc_codes": [
+      "IL-510",
+      "IL-511"
+    ],
+    "hud_pit_file": null,
+    "hud_pit_url": null,
+    "hrsa_hpsa_file": null,
+    "hrsa_hpsa_url": null,
+    "samhsa_lat": null,
+    "samhsa_lon": null,
+    "samhsa_radius_miles": 50.0,
+    "nces_year": null
   },
   "citations": [
     {
@@ -25,7 +40,7 @@
       "source_agency_or_author": "U.S. Census Bureau",
       "publication_date": "Ongoing",
       "url_or_file_reference": "https://api.census.gov/data.html",
-      "notes": "Source for population, demographics, language, poverty, housing, insurance, transportation, and SDOH indicators."
+      "notes": "Source for ACS indicators including Medicaid, uninsured, demographics, SDOH, and housing."
     },
     {
       "citation_id": "CMS_MEDICAID_DATA",
@@ -35,7 +50,7 @@
       "source_agency_or_author": "Centers for Medicare & Medicaid Services",
       "publication_date": "Ongoing",
       "url_or_file_reference": "https://data.medicaid.gov/",
-      "notes": "Potential source for Medicaid administrative indicators."
+      "notes": "State-level Medicaid administrative data; county Medicaid coverage is populated from ACS C27007 in this script."
     },
     {
       "citation_id": "BLS_LAUS_API",
@@ -45,7 +60,7 @@
       "source_agency_or_author": "U.S. Bureau of Labor Statistics",
       "publication_date": "Ongoing",
       "url_or_file_reference": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
-      "notes": "Source for county labor force and unemployment indicators."
+      "notes": "Source for county unemployment indicators."
     },
     {
       "citation_id": "CDC_PLACES_API",
@@ -58,54 +73,54 @@
       "notes": "Source for modeled county/local health indicators."
     },
     {
-      "citation_id": "CDC_WONDER_NVSS",
-      "citation_label": "CDC WONDER / NVSS",
-      "source_title": "CDC WONDER, National Vital Statistics System Mortality",
-      "source_type": "Government system / manual download fallback",
+      "citation_id": "CDC_MIVO_COUNTY",
+      "citation_label": "CDC MIVO County",
+      "source_title": "Mapping Injury, Overdose, and Violence - County",
+      "source_type": "Government API / Socrata",
       "source_agency_or_author": "Centers for Disease Control and Prevention",
       "publication_date": "Ongoing",
-      "url_or_file_reference": "https://wonder.cdc.gov/",
-      "notes": "Source for suicide and drug overdose mortality."
+      "url_or_file_reference": "https://data.cdc.gov/resource/psx4-wq38.json",
+      "notes": "County-level death counts and rates for suicide and drug overdose."
     },
     {
       "citation_id": "HRSA_DATA_WAREHOUSE",
       "citation_label": "HRSA Data Warehouse",
-      "source_title": "HRSA Data Warehouse and Area Health Resource Files",
-      "source_type": "Government API / public files",
+      "source_title": "HRSA Data Warehouse Shortage Areas Downloads",
+      "source_type": "Government download",
       "source_agency_or_author": "Health Resources and Services Administration",
-      "publication_date": "Ongoing",
-      "url_or_file_reference": "https://data.hrsa.gov/",
-      "notes": "Source for HPSA, MUA/P, health center, workforce, and resource indicators."
+      "publication_date": "Daily",
+      "url_or_file_reference": "https://data.hrsa.gov/data/download?titleFilter=Shortage%20Areas",
+      "notes": "Mental Health HPSA data."
     },
     {
       "citation_id": "SAMHSA_FINDTREATMENT",
-      "citation_label": "SAMHSA FindTreatment / N-SUMHSS",
-      "source_title": "SAMHSA Behavioral Health Treatment Locator and N-SUMHSS",
-      "source_type": "Government locator / public files",
+      "citation_label": "SAMHSA FindTreatment API",
+      "source_title": "FindTreatment.gov API",
+      "source_type": "Government API",
       "source_agency_or_author": "Substance Abuse and Mental Health Services Administration",
       "publication_date": "Ongoing",
-      "url_or_file_reference": "https://findtreatment.gov/",
-      "notes": "Source for behavioral health treatment facility availability."
+      "url_or_file_reference": "https://findtreatment.gov/locator/exportsAsJson/v2",
+      "notes": "Facility locator API for mental health and substance use treatment facilities."
     },
     {
       "citation_id": "NCES_CCD",
       "citation_label": "NCES Common Core of Data",
-      "source_title": "Common Core of Data",
-      "source_type": "Government data files / API where available",
-      "source_agency_or_author": "National Center for Education Statistics",
-      "publication_date": "Ongoing",
-      "url_or_file_reference": "https://nces.ed.gov/ccd/",
-      "notes": "Source for school enrollment and district demographics."
+      "source_title": "Common Core of Data via Education Data Portal",
+      "source_type": "Government-derived API",
+      "source_agency_or_author": "National Center for Education Statistics / Urban Institute",
+      "publication_date": "Annual",
+      "url_or_file_reference": "https://educationdata.urban.org/documentation/",
+      "notes": "CCD school enrollment data."
     },
     {
       "citation_id": "HUD_PIT_HIC",
       "citation_label": "HUD PIT/HIC",
-      "source_title": "Point-in-Time Count and Housing Inventory Count",
+      "source_title": "Annual Homelessness Assessment Report PIT data",
       "source_type": "Government public files",
       "source_agency_or_author": "U.S. Department of Housing and Urban Development",
       "publication_date": "Annual",
-      "url_or_file_reference": "https://www.hudexchange.info/programs/hdx/pit-hic/",
-      "notes": "Source for homelessness indicators."
+      "url_or_file_reference": "https://www.huduser.gov/portal/datasets/ahar/2025-ahar-part-1-pit-estimates-of-homelessness-in-the-us.html",
+      "notes": "PIT homelessness data by CoC and state, 2007-2025."
     },
     {
       "citation_id": "INTERNAL_PLACEHOLDER",
@@ -118,7 +133,10 @@
       "notes": "Used for EHR, staffing, utilization, and qualitative findings."
     }
   ],
-  "notes": [],
+  "notes": [
+    "Could not read HUD AHAR page to discover PIT file links.",
+    "SAMHSA exact county search requires FindTreatment county ID or coordinates; using state search with county-name filtering."
+  ],
   "errors": [],
   "source_latest_summary": {
     "ACS 5-year Detailed Tables (U.S. Census Bureau)": [
@@ -130,50 +148,43 @@
     "ACS 5-year Subject Tables (U.S. Census Bureau)": [
       "2024"
     ],
+    "ACS C27007 Medicaid/Means-Tested Public Coverage (U.S. Census Bureau)": [
+      "2024"
+    ],
     "BLS LAUS (U.S. Bureau of Labor Statistics)": [
-      "2024 Calculated annual average from 12 monthly BLS rows"
+      "2025"
     ],
     "CDC PLACES (Centers for Disease Control and Prevention)": [
       "2023"
     ],
-    "CMS Medicaid / ACS Medicaid-specific data (CMS / U.S. Census Bureau)": [
-      "current source as of retrieval; manual/download connector needed"
-    ],
-    "CDC WONDER / NVSS (Centers for Disease Control and Prevention)": [
-      "current source as of retrieval; manual/download connector needed"
-    ],
-    "HRSA Data Warehouse (Health Resources and Services Administration)": [
-      "current source as of retrieval; manual/download connector needed"
-    ],
-    "SAMHSA FindTreatment / N-SUMHSS (Substance Abuse and Mental Health Services Administration)": [
-      "current source as of retrieval; manual/download connector needed"
+    "CDC MIVO County (Centers for Disease Control and Prevention)": [
+      "2024",
+      "TTM: January, 2025 to December, 2025",
+      "TTM: November, 2024 to October, 2025"
     ],
     "HUD PIT/HIC (U.S. Department of Housing and Urban Development)": [
-      "current source as of retrieval; manual/download connector needed"
+      "2025"
     ],
-    "NCES Common Core of Data (National Center for Education Statistics)": [
-      "current source as of retrieval; manual/download connector needed"
+    "HRSA Data Warehouse (Health Resources and Services Administration)": [
+      "current"
+    ],
+    "SAMHSA FindTreatment (Substance Abuse and Mental Health Services Administration)": [
+      "current"
+    ],
+    "NCES CCD / Education Data Portal (National Center for Education Statistics / Urban Institute)": [
+      "2024"
     ],
     "Internal EHR / client data (Client organization)": [
-      "current source as of retrieval; manual/download connector needed"
+      "internal file required"
     ],
     "Internal operations data (Client organization)": [
-      "current source as of retrieval; manual/download connector needed"
+      "internal file required"
     ],
     "Internal staffing plan (Client organization)": [
-      "current source as of retrieval; manual/download connector needed"
+      "internal file required"
     ],
     "Primary qualitative research (Client organization / consultant)": [
-      "current source as of retrieval; manual/download connector needed"
+      "internal file required"
     ]
-  },
-  "unit_logic_summary": {
-    "ACS counts": "people or households",
-    "ACS dollars": "dollars",
-    "ACS percentages": "percent",
-    "ACS calculated percentages": "percent = numerator / denominator * 100",
-    "ACS special values": "special values converted to null",
-    "BLS LAUS unemployment": "annual average preferred",
-    "CDC PLACES": "API unit normalized"
   }
 }

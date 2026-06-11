@@ -6,16 +6,15 @@ State FIPS: 17
 County FIPS: 031
 Comparison geographies: county, state, us
 Census API key provided: True
+Annual series years: 10
+HUD PIT year: 2025
+HUD CoC codes: IL-510, IL-511
 
-## Files
+## Key outputs
 
-- `indicator_catalog.csv`
-- `needs_assessment_data_long.csv`
-- `source_metadata.json`
-- `data_availability.md`
-- `citation_appendix.md`
-- `api_errors_and_limitations.md`
-
-## Census API key
-
-To pull ACS indicators, set `CENSUS_API_KEY` or pass `--census-api-key`.
+- HUD PIT annual series for total, sheltered, and unsheltered homelessness.
+- ACS Medicaid/means-tested public coverage rate.
+- HRSA mental health HPSA count/status.
+- SAMHSA MH/SUD facility counts.
+- NCES CCD enrollment best-effort.
+- Annual BLS unemployment and ACS uninsured data; no YoY percent-change rows.
