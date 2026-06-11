@@ -78,7 +78,7 @@ The script prints the output directory and row counts when it finishes.
 - `--comparison-geographies` selects comparison rows from `county`, `state`, and `us`.
 - `--latest` asks the script to use the most recent available ACS endpoints.
 - `--years` can be used instead of `--latest` for explicit ACS years.
-- `--annual-years` controls annual series length for indicators such as HUD PIT, unemployment, and uninsured.
+- `--annual-years` controls annual series length for indicators such as HUD PIT, suicide/overdose mortality, unemployment, and uninsured.
 - `--hud-coc-codes` improves HUD PIT matching when the service area maps to known Continuums of Care.
 - `--hud-pit-file` or `--hud-pit-url` can supply a PIT file directly if HUD link discovery fails.
 - `--hrsa-hpsa-file` or `--hrsa-hpsa-url` can supply HRSA shortage area data directly.

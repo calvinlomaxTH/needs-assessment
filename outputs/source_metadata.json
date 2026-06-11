@@ -1,5 +1,5 @@
 {
-  "retrieved_at": "2026-06-11T19:23:21.234240+00:00",
+  "retrieved_at": "2026-06-11T20:56:48.050523+00:00",
   "run_config": {
     "state_fips": "17",
     "county_fips": "031",
@@ -158,9 +158,7 @@
       "2023"
     ],
     "CDC MIVO County (Centers for Disease Control and Prevention)": [
-      "2024",
-      "TTM: January, 2025 to December, 2025",
-      "TTM: November, 2024 to October, 2025"
+      "2024"
     ],
     "HUD PIT/HIC (U.S. Department of Housing and Urban Development)": [
       "2025"

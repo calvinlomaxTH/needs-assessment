@@ -628,10 +628,10 @@ def build_indicator_definitions() -> dict[str, IndicatorDefinition]:
         indicator_def("DEPRESSION_PREVALENCE", "Depression prevalence", "Mental Health Prevalence and Outcomes", "Estimated depression prevalence.", "percent", "Percent of adults.", "CDC PLACES metadata.", "CDC PLACES", "Centers for Disease Control and Prevention", "API / Socrata", "County", "Annual release", latest_places, "CDC_PLACES_API", "Modeled estimate.", "Are depression needs presenting differently?", "Partial", "Yes", "No"),
         indicator_def("BINGE_DRINKING", "Binge drinking", "Substance Use Prevalence and Outcomes", "Estimated binge drinking prevalence.", "percent", "Percent of adults.", "CDC PLACES metadata.", "CDC PLACES", "Centers for Disease Control and Prevention", "API / Socrata", "County", "Annual release", latest_places, "CDC_PLACES_API", "Modeled estimate.", "How are alcohol needs showing up?", "Partial", "Yes", "No"),
         indicator_def("CURRENT_SMOKING", "Current smoking", "Physical Health and Co-occurring Conditions", "Estimated current smoking prevalence.", "percent", "Percent of adults.", "CDC PLACES metadata.", "CDC PLACES", "Centers for Disease Control and Prevention", "API / Socrata", "County", "Annual release", latest_places, "CDC_PLACES_API", "Modeled estimate.", "Are tobacco needs addressed?", "Partial", "Yes", "No"),
-        indicator_def("SUICIDE_MORTALITY", "Suicide mortality rate", "Mental Health Prevalence and Outcomes", "Suicide mortality rate.", "deaths per 100,000", "Suicide deaths per 100,000 population.", "CDC MIVO County rate.", "CDC MIVO County", "Centers for Disease Control and Prevention", "API / Socrata", "County", "Annual / TTM", "Use latest yearly and TTM county rows.", "CDC_MIVO_COUNTY", "Counts 1-9 are suppressed; rates may be modeled.", "What suicide-prevention needs are not visible?"),
-        indicator_def("SUICIDE_DEATHS_COUNT", "Suicide deaths count", "Mental Health Prevalence and Outcomes", "Suicide death count.", "deaths", "Number of suicide deaths.", "CDC MIVO County count.", "CDC MIVO County", "Centers for Disease Control and Prevention", "API / Socrata", "County", "Annual / TTM", "Use latest yearly and TTM county rows.", "CDC_MIVO_COUNTY", "Counts 1-9 are suppressed.", "What suicide-prevention needs are not visible?"),
-        indicator_def("OVERDOSE_MORTALITY", "Drug overdose mortality rate", "Substance Use Prevalence and Outcomes", "Drug overdose mortality rate.", "deaths per 100,000", "Drug overdose deaths per 100,000 population.", "CDC MIVO County rate.", "CDC MIVO County", "Centers for Disease Control and Prevention", "API / Socrata", "County", "Annual / TTM", "Use latest yearly and TTM county rows.", "CDC_MIVO_COUNTY", "Counts 1-9 are suppressed; rates may be modeled.", "Which overdose risks are visible?"),
-        indicator_def("OVERDOSE_DEATHS_COUNT", "Drug overdose deaths count", "Substance Use Prevalence and Outcomes", "Drug overdose death count.", "deaths", "Number of drug overdose deaths.", "CDC MIVO County count.", "CDC MIVO County", "Centers for Disease Control and Prevention", "API / Socrata", "County", "Annual / TTM", "Use latest yearly and TTM county rows.", "CDC_MIVO_COUNTY", "Counts 1-9 are suppressed.", "Which overdose risks are visible?"),
+        indicator_def("SUICIDE_MORTALITY", "Suicide mortality rate", "Mental Health Prevalence and Outcomes", "Suicide mortality rate.", "deaths per 100,000", "Suicide deaths per 100,000 population.", "CDC MIVO County rate.", "CDC MIVO County", "Centers for Disease Control and Prevention", "API / Socrata", "County", "Annual", "Return one annual CDC MIVO county row for each of the last N years.", "CDC_MIVO_COUNTY", "Counts 1-9 are suppressed; rates may be modeled.", "What suicide-prevention needs are not visible?"),
+        indicator_def("SUICIDE_DEATHS_COUNT", "Suicide deaths count", "Mental Health Prevalence and Outcomes", "Suicide death count.", "deaths", "Number of suicide deaths.", "CDC MIVO County count.", "CDC MIVO County", "Centers for Disease Control and Prevention", "API / Socrata", "County", "Annual", "Return one annual CDC MIVO county row for each of the last N years.", "CDC_MIVO_COUNTY", "Counts 1-9 are suppressed.", "What suicide-prevention needs are not visible?"),
+        indicator_def("OVERDOSE_MORTALITY", "Drug overdose mortality rate", "Substance Use Prevalence and Outcomes", "Drug overdose mortality rate.", "deaths per 100,000", "Drug overdose deaths per 100,000 population.", "CDC MIVO County rate.", "CDC MIVO County", "Centers for Disease Control and Prevention", "API / Socrata", "County", "Annual", "Return one annual CDC MIVO county row for each of the last N years.", "CDC_MIVO_COUNTY", "Counts 1-9 are suppressed; rates may be modeled.", "Which overdose risks are visible?"),
+        indicator_def("OVERDOSE_DEATHS_COUNT", "Drug overdose deaths count", "Substance Use Prevalence and Outcomes", "Drug overdose death count.", "deaths", "Number of drug overdose deaths.", "CDC MIVO County count.", "CDC MIVO County", "Centers for Disease Control and Prevention", "API / Socrata", "County", "Annual", "Return one annual CDC MIVO county row for each of the last N years.", "CDC_MIVO_COUNTY", "Counts 1-9 are suppressed.", "Which overdose risks are visible?"),
         indicator_def("HOMELESSNESS_PIT", "People experiencing homelessness", "Housing Stability", "PIT homelessness total.", "people", "People counted as experiencing homelessness on a single night.", "HUD PIT/AHAR.", "HUD PIT/HIC", "U.S. Department of Housing and Urban Development", "Public download", "CoC or state", "Annual", "Always emit one row per year for the last N HUD PIT years; use CoC data when codes are supplied and state fallback otherwise.", "HUD_PIT_HIC", "CoC-to-county matching requires CoC codes.", "What housing instability is missed?"),
         indicator_def("HOMELESSNESS_PIT_SHELTERED", "Sheltered homelessness PIT", "Housing Stability", "Sheltered PIT homelessness.", "people", "Sheltered people experiencing homelessness.", "HUD PIT/AHAR.", "HUD PIT/HIC", "U.S. Department of Housing and Urban Development", "Public download", "CoC or state", "Annual", "Always emit one row per year for the last N HUD PIT years; use CoC data when codes are supplied and state fallback otherwise.", "HUD_PIT_HIC", "CoC-to-county matching requires CoC codes.", "What shelter access gaps exist?"),
         indicator_def("HOMELESSNESS_PIT_UNSHELTERED", "Unsheltered homelessness PIT", "Housing Stability", "Unsheltered PIT homelessness.", "people", "Unsheltered people experiencing homelessness.", "HUD PIT/AHAR.", "HUD PIT/HIC", "U.S. Department of Housing and Urban Development", "Public download", "CoC or state", "Annual", "Always emit one row per year for the last N HUD PIT years; use CoC data when codes are supplied and state fallback otherwise.", "HUD_PIT_HIC", "CoC-to-county matching requires CoC codes.", "What unsheltered homelessness is missed?"),
@@ -1102,52 +1102,65 @@ def parse_cdc_count(value: Any) -> tuple[Optional[float], str]:
     return f, "Count numeric." if f is not None else "Count unavailable or suppressed."
 
 
-def cdc_mivo_latest_rows(rows: list[dict[str, Any]], intent: str) -> list[dict[str, Any]]:
-    intent_rows = [r for r in rows if str(r.get("intent")) == intent]
-    yearly = []
-    ttm = []
-    for r in intent_rows:
-        period = str(r.get("period", ""))
-        if period == "TTM":
-            ttm.append(r)
-        elif safe_int(period) is not None:
-            yearly.append(r)
-    selected: list[dict[str, Any]] = []
-    if yearly:
-        yearly.sort(key=lambda r: safe_int(r.get("period")) or 0, reverse=True)
-        selected.append(yearly[0])
-    if ttm:
-        ttm.sort(key=lambda r: str(r.get("ttm_date_range", "")), reverse=True)
-        selected.append(ttm[0])
-    return selected
+def cdc_mivo_annual_years(rows: list[dict[str, Any]], intent: str, annual_years: int) -> tuple[list[int], str]:
+    intent_years = sorted(
+        {
+            year
+            for r in rows
+            if str(r.get("intent")) == intent
+            for year in [safe_int(r.get("period"))]
+            if year is not None
+        }
+    )
+    if not intent_years:
+        return [], "not pulled"
+    latest_year = intent_years[-1]
+    start_year = latest_year - annual_years + 1
+    return list(range(start_year, latest_year + 1)), str(latest_year)
 
 
-def add_cdc_mortality_pair(observations: list[Observation], *, config: RunConfig, row: dict[str, Any], rate_indicator: str, count_indicator: str, intent_label: str) -> None:
-    period = str(row.get("period") or "latest")
-    ttm_range = str(row.get("ttm_date_range") or "")
-    period_label = f"TTM: {ttm_range}" if period == "TTM" and ttm_range else period
-    rate = safe_float(row.get("rate"))
-    count, count_note = parse_cdc_count(row.get("count_sup"))
-    modeled = safe_float(row.get("rate_m"))
-    modeled_note = "Rate modeled by CDC." if modeled == 1 else "Rate not flagged as modeled."
-    common_note = f"{intent_label}. {modeled_note} {count_note}"
-    observations.append(make_observation(indicator_id=rate_indicator, geography_name=f"{row.get('name', config.county_name)}, {row.get('st_name', config.state_abbr)}", geography_type="County", state_fips=config.state_fips, county_fips=config.county_fips, year_or_period=period_label, source_latest_year_or_period=period_label, estimate=rate, moe=None, numerator=count, denominator=None, source_variable_label=f"intent={row.get('intent')}; period={period}; rate=rate; count=count_sup; ttm={ttm_range}", stratification="Yearly" if period != "TTM" else "Trailing twelve months", comparison_available="No", data_quality_note=common_note, source_url_or_endpoint=CDC_MORTALITY_COUNTY_ENDPOINT))
-    observations.append(make_observation(indicator_id=count_indicator, geography_name=f"{row.get('name', config.county_name)}, {row.get('st_name', config.state_abbr)}", geography_type="County", state_fips=config.state_fips, county_fips=config.county_fips, year_or_period=period_label, source_latest_year_or_period=period_label, estimate=count, moe=None, numerator=count, denominator=None, source_variable_label=f"intent={row.get('intent')}; period={period}; count=count_sup; ttm={ttm_range}", stratification="Yearly" if period != "TTM" else "Trailing twelve months", comparison_available="No", data_quality_note=common_note, source_url_or_endpoint=CDC_MORTALITY_COUNTY_ENDPOINT))
+def add_cdc_mortality_annual_series(observations: list[Observation], *, config: RunConfig, rows: list[dict[str, Any]], intent: str, rate_indicator: str, count_indicator: str, intent_label: str) -> None:
+    years, latest_year = cdc_mivo_annual_years(rows, intent, config.annual_years)
+    if not years:
+        return
+    rows_by_year = {
+        year: row
+        for row in rows
+        if str(row.get("intent")) == intent
+        for year in [safe_int(row.get("period"))]
+        if year is not None
+    }
+    for year in years:
+        row = rows_by_year.get(year)
+        if row:
+            rate = safe_float(row.get("rate"))
+            count, count_note = parse_cdc_count(row.get("count_sup"))
+            modeled = safe_float(row.get("rate_m"))
+            modeled_note = "Rate modeled by CDC." if modeled == 1 else "Rate not flagged as modeled."
+            geography_name = f"{row.get('name', config.county_name)}, {row.get('st_name', config.state_abbr)}"
+            source_variable_context = f"intent={intent}; period={year}"
+            common_note = f"{intent_label}. {modeled_note} {count_note}"
+        else:
+            rate = None
+            count = None
+            geography_name = config.service_area_name
+            source_variable_context = f"intent={intent}; period={year}; annual row not returned by CDC MIVO County query"
+            common_note = f"{intent_label}. No annual CDC MIVO County row was returned for this year; blank row emitted to preserve the {config.annual_years}-year series."
+        observations.append(make_observation(indicator_id=rate_indicator, geography_name=geography_name, geography_type="County", state_fips=config.state_fips, county_fips=config.county_fips, year_or_period=str(year), source_latest_year_or_period=latest_year, estimate=rate, moe=None, numerator=count, denominator=None, source_variable_label=f"{source_variable_context}; rate=rate; count=count_sup", stratification=f"{config.annual_years}-year annual series", comparison_available="No", data_quality_note=common_note, source_url_or_endpoint=CDC_MORTALITY_COUNTY_ENDPOINT))
+        observations.append(make_observation(indicator_id=count_indicator, geography_name=geography_name, geography_type="County", state_fips=config.state_fips, county_fips=config.county_fips, year_or_period=str(year), source_latest_year_or_period=latest_year, estimate=count, moe=None, numerator=count, denominator=None, source_variable_label=f"{source_variable_context}; count=count_sup", stratification=f"{config.annual_years}-year annual series", comparison_available="No", data_quality_note=common_note, source_url_or_endpoint=CDC_MORTALITY_COUNTY_ENDPOINT))
 
 
 def extract_cdc_mortality(config: RunConfig, errors: list[str]) -> list[Observation]:
     log_step("Starting CDC suicide/overdose mortality extraction")
     observations: list[Observation] = []
     county_fips_full = f"{config.state_fips}{config.county_fips}"
-    params = {"$limit": 500, "$where": f"geoid='{county_fips_full}' AND intent in('All_Suicide','Drug_OD')", "$order": "period DESC"}
+    params = {"$limit": max(500, (config.annual_years * 4) + 10), "$where": f"geoid='{county_fips_full}' AND intent in('All_Suicide','Drug_OD')", "$order": "period DESC"}
     data = cached_get_json("cdc_mivo_county", CDC_MORTALITY_COUNTY_ENDPOINT, params=params, errors=errors)
     if not isinstance(data, list) or not data:
         errors.append(f"CDC MIVO County returned no rows for county FIPS {county_fips_full}.")
         return observations
-    for row in cdc_mivo_latest_rows(data, "All_Suicide"):
-        add_cdc_mortality_pair(observations, config=config, row=row, rate_indicator="SUICIDE_MORTALITY", count_indicator="SUICIDE_DEATHS_COUNT", intent_label="All-method suicide mortality from CDC MIVO County")
-    for row in cdc_mivo_latest_rows(data, "Drug_OD"):
-        add_cdc_mortality_pair(observations, config=config, row=row, rate_indicator="OVERDOSE_MORTALITY", count_indicator="OVERDOSE_DEATHS_COUNT", intent_label="Drug overdose mortality from CDC MIVO County")
+    add_cdc_mortality_annual_series(observations, config=config, rows=data, intent="All_Suicide", rate_indicator="SUICIDE_MORTALITY", count_indicator="SUICIDE_DEATHS_COUNT", intent_label="All-method suicide mortality from CDC MIVO County")
+    add_cdc_mortality_annual_series(observations, config=config, rows=data, intent="Drug_OD", rate_indicator="OVERDOSE_MORTALITY", count_indicator="OVERDOSE_DEATHS_COUNT", intent_label="Drug overdose mortality from CDC MIVO County")
     return observations
 
 
@@ -1540,7 +1553,7 @@ def write_api_errors(errors: list[str], notes: list[str]) -> None:
 
 
 def write_readme(config: RunConfig) -> None:
-    lines = ["# Needs Assessment Data Outputs", "", f"Service area: {config.service_area_name}", f"County: {config.county_name}", f"State FIPS: {config.state_fips}", f"County FIPS: {config.county_fips}", f"Comparison geographies: {', '.join(config.comparison_geographies)}", f"Census API key provided: {bool(config.census_api_key)}", f"Annual series years: {config.annual_years}", f"HUD PIT year: {config.hud_year}", f"HUD CoC codes: {', '.join(config.hud_coc_codes) if config.hud_coc_codes else 'None; state-level HUD matching attempted'}", "", "## Key outputs", "", "- HUD PIT annual series for total, sheltered, and unsheltered homelessness.", "- ACS Medicaid/means-tested public coverage rate.", "- HRSA mental health HPSA count/status.", "- SAMHSA MH/SUD facility counts.", "- NCES CCD enrollment best-effort.", "- Annual BLS unemployment and ACS uninsured data; no YoY percent-change rows."]
+    lines = ["# Needs Assessment Data Outputs", "", f"Service area: {config.service_area_name}", f"County: {config.county_name}", f"State FIPS: {config.state_fips}", f"County FIPS: {config.county_fips}", f"Comparison geographies: {', '.join(config.comparison_geographies)}", f"Census API key provided: {bool(config.census_api_key)}", f"Annual series years: {config.annual_years}", f"HUD PIT year: {config.hud_year}", f"HUD CoC codes: {', '.join(config.hud_coc_codes) if config.hud_coc_codes else 'None; state-level HUD matching attempted'}", "", "## Key outputs", "", "- HUD PIT annual series for total, sheltered, and unsheltered homelessness.", "- CDC MIVO annual series for suicide and drug overdose death counts and mortality rates.", "- ACS Medicaid/means-tested public coverage rate.", "- HRSA mental health HPSA count/status.", "- SAMHSA MH/SUD facility counts.", "- NCES CCD enrollment best-effort.", "- Annual BLS unemployment and ACS uninsured data; no YoY percent-change rows."]
     (OUTPUT_DIR / "README.md").write_text("\n".join(lines), encoding="utf-8")
 
 

@@ -13,6 +13,7 @@ HUD CoC codes: IL-510, IL-511
 ## Key outputs
 
 - HUD PIT annual series for total, sheltered, and unsheltered homelessness.
+- CDC MIVO annual series for suicide and drug overdose death counts and mortality rates.
 - ACS Medicaid/means-tested public coverage rate.
 - HRSA mental health HPSA count/status.
 - SAMHSA MH/SUD facility counts.
