@@ -46,7 +46,7 @@ pip install requests pandas openpyxl pyxlsb
 A Census API key is recommended. Provide it through an environment variable:
 
 ```bash
-export CENSUS_API_KEY="your-census-api-key"
+export CENSUS_API_KEY="4a550c8493494c363ee0afc87c2af4e97d4a169b"
 ```
 
 Do not commit local credential files such as `key.txt`.
