@@ -1,0 +1,1850 @@
+[
+  {
+    "year": "2022",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Prevention",
+    "measure": "Mammography use among women aged 50-74 years",
+    "data_value_unit": "%",
+    "data_value_type": "Crude prevalence",
+    "data_value": "71.6",
+    "low_confidence_limit": "63.4",
+    "high_confidence_limit": "78.8",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "PREVENT",
+    "measureid": "MAMMOUSE",
+    "datavaluetypeid": "CrdPrv",
+    "short_question_text": "Mammography",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Outcomes",
+    "measure": "High blood pressure among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Crude prevalence",
+    "data_value": "28.6",
+    "low_confidence_limit": "24.8",
+    "high_confidence_limit": "32.4",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "HLTHOUT",
+    "measureid": "BPHIGH",
+    "datavaluetypeid": "CrdPrv",
+    "short_question_text": "High Blood Pressure",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Risk Behaviors",
+    "measure": "Current cigarette smoking among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Age-adjusted prevalence",
+    "data_value": "11.9",
+    "low_confidence_limit": "9.3",
+    "high_confidence_limit": "14.7",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "RISKBEH",
+    "measureid": "CSMOKING",
+    "datavaluetypeid": "AgeAdjPrv",
+    "short_question_text": "Current Cigarette Smoking",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Disability",
+    "measure": "Cognitive disability among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Age-adjusted prevalence",
+    "data_value": "14.0",
+    "low_confidence_limit": "11.8",
+    "high_confidence_limit": "16.2",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "DISABLT",
+    "measureid": "COGNITION",
+    "datavaluetypeid": "AgeAdjPrv",
+    "short_question_text": "Cognitive Disability",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2022",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Risk Behaviors",
+    "measure": "Short sleep duration among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Age-adjusted prevalence",
+    "data_value": "28.3",
+    "low_confidence_limit": "23.2",
+    "high_confidence_limit": "33.9",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "RISKBEH",
+    "measureid": "SLEEP",
+    "datavaluetypeid": "AgeAdjPrv",
+    "short_question_text": "Short Sleep Duration",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Outcomes",
+    "measure": "Cancer (non-skin) or melanoma among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Crude prevalence",
+    "data_value": "9.6",
+    "low_confidence_limit": "8.6",
+    "high_confidence_limit": "10.7",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "HLTHOUT",
+    "measureid": "CANCER",
+    "datavaluetypeid": "CrdPrv",
+    "short_question_text": "Cancer (non-skin) or Melanoma",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Disability",
+    "measure": "Independent living disability among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Crude prevalence",
+    "data_value": "6.9",
+    "low_confidence_limit": "5.8",
+    "high_confidence_limit": "8.0",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "DISABLT",
+    "measureid": "INDEPLIVE",
+    "datavaluetypeid": "CrdPrv",
+    "short_question_text": "Independent Living Disability",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Outcomes",
+    "measure": "Depression among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Age-adjusted prevalence",
+    "data_value": "22.9",
+    "low_confidence_limit": "19.5",
+    "high_confidence_limit": "26.5",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "HLTHOUT",
+    "measureid": "DEPRESSION",
+    "datavaluetypeid": "AgeAdjPrv",
+    "short_question_text": "Depression",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2022",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Outcomes",
+    "measure": "All teeth lost among adults aged >=65 years",
+    "data_value_unit": "%",
+    "data_value_type": "Age-adjusted prevalence",
+    "data_value": "7.2",
+    "low_confidence_limit": "5.7",
+    "high_confidence_limit": "9.0",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "HLTHOUT",
+    "measureid": "TEETHLOST",
+    "datavaluetypeid": "AgeAdjPrv",
+    "short_question_text": "All Teeth Lost",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Outcomes",
+    "measure": "Coronary heart disease among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Crude prevalence",
+    "data_value": "6.2",
+    "low_confidence_limit": "5.3",
+    "high_confidence_limit": "7.1",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "HLTHOUT",
+    "measureid": "CHD",
+    "datavaluetypeid": "CrdPrv",
+    "short_question_text": "Coronary Heart Disease",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Status",
+    "measure": "Frequent physical distress among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Crude prevalence",
+    "data_value": "12.5",
+    "low_confidence_limit": "10.6",
+    "high_confidence_limit": "14.4",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "HLTHSTAT",
+    "measureid": "PHLTH",
+    "datavaluetypeid": "CrdPrv",
+    "short_question_text": "Frequent Physical Distress",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Outcomes",
+    "measure": "High blood pressure among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Age-adjusted prevalence",
+    "data_value": "24.3",
+    "low_confidence_limit": "21.0",
+    "high_confidence_limit": "27.7",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "HLTHOUT",
+    "measureid": "BPHIGH",
+    "datavaluetypeid": "AgeAdjPrv",
+    "short_question_text": "High Blood Pressure",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Disability",
+    "measure": "Self-care disability among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Crude prevalence",
+    "data_value": "3.1",
+    "low_confidence_limit": "2.6",
+    "high_confidence_limit": "3.6",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "DISABLT",
+    "measureid": "SELFCARE",
+    "datavaluetypeid": "CrdPrv",
+    "short_question_text": "Self-care Disability",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Outcomes",
+    "measure": "Arthritis among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Crude prevalence",
+    "data_value": "27.0",
+    "low_confidence_limit": "23.6",
+    "high_confidence_limit": "30.4",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "HLTHOUT",
+    "measureid": "ARTHRITIS",
+    "datavaluetypeid": "CrdPrv",
+    "short_question_text": "Arthritis",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Disability",
+    "measure": "Any disability among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Crude prevalence",
+    "data_value": "27.7",
+    "low_confidence_limit": "23.3",
+    "high_confidence_limit": "32.0",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "DISABLT",
+    "measureid": "DISABILITY",
+    "datavaluetypeid": "CrdPrv",
+    "short_question_text": "Any Disability",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Disability",
+    "measure": "Hearing disability among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Age-adjusted prevalence",
+    "data_value": "6.3",
+    "low_confidence_limit": "5.5",
+    "high_confidence_limit": "7.2",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "DISABLT",
+    "measureid": "HEARING",
+    "datavaluetypeid": "AgeAdjPrv",
+    "short_question_text": "Hearing Disability",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Prevention",
+    "measure": "Visits to doctor for routine checkup within the past year among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Age-adjusted prevalence",
+    "data_value": "70.0",
+    "low_confidence_limit": "65.7",
+    "high_confidence_limit": "74.2",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "PREVENT",
+    "measureid": "CHECKUP",
+    "datavaluetypeid": "AgeAdjPrv",
+    "short_question_text": "Annual Checkup",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Outcomes",
+    "measure": "Chronic obstructive pulmonary disease among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Crude prevalence",
+    "data_value": "6.2",
+    "low_confidence_limit": "5.0",
+    "high_confidence_limit": "7.5",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "HLTHOUT",
+    "measureid": "COPD",
+    "datavaluetypeid": "CrdPrv",
+    "short_question_text": "COPD",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2022",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Prevention",
+    "measure": "Colorectal cancer screening among adults aged 45\u201375 years",
+    "data_value_unit": "%",
+    "data_value_type": "Crude prevalence",
+    "data_value": "62.6",
+    "low_confidence_limit": "57.5",
+    "high_confidence_limit": "67.4",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "PREVENT",
+    "measureid": "COLON_SCREEN",
+    "datavaluetypeid": "CrdPrv",
+    "short_question_text": "Colorectal Cancer Screening",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Status",
+    "measure": "Frequent mental distress among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Age-adjusted prevalence",
+    "data_value": "16.9",
+    "low_confidence_limit": "14.6",
+    "high_confidence_limit": "19.2",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "HLTHSTAT",
+    "measureid": "MHLTH",
+    "datavaluetypeid": "AgeAdjPrv",
+    "short_question_text": "Frequent Mental Distress",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Outcomes",
+    "measure": "Stroke among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Crude prevalence",
+    "data_value": "3.2",
+    "low_confidence_limit": "2.7",
+    "high_confidence_limit": "3.6",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "HLTHOUT",
+    "measureid": "STROKE",
+    "datavaluetypeid": "CrdPrv",
+    "short_question_text": "Stroke",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Outcomes",
+    "measure": "Coronary heart disease among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Age-adjusted prevalence",
+    "data_value": "4.9",
+    "low_confidence_limit": "4.2",
+    "high_confidence_limit": "5.6",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "HLTHOUT",
+    "measureid": "CHD",
+    "datavaluetypeid": "AgeAdjPrv",
+    "short_question_text": "Coronary Heart Disease",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Disability",
+    "measure": "Independent living disability among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Age-adjusted prevalence",
+    "data_value": "6.9",
+    "low_confidence_limit": "5.8",
+    "high_confidence_limit": "8.0",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "DISABLT",
+    "measureid": "INDEPLIVE",
+    "datavaluetypeid": "AgeAdjPrv",
+    "short_question_text": "Independent Living Disability",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Prevention",
+    "measure": "Current lack of health insurance among adults aged 18-64 years",
+    "data_value_unit": "%",
+    "data_value_type": "Crude prevalence",
+    "data_value": "8.6",
+    "low_confidence_limit": "6.9",
+    "high_confidence_limit": "10.8",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "PREVENT",
+    "measureid": "ACCESS2",
+    "datavaluetypeid": "CrdPrv",
+    "short_question_text": "Health Insurance",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Risk Behaviors",
+    "measure": "Binge drinking among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Age-adjusted prevalence",
+    "data_value": "20.8",
+    "low_confidence_limit": "17.3",
+    "high_confidence_limit": "24.6",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "RISKBEH",
+    "measureid": "BINGE",
+    "datavaluetypeid": "AgeAdjPrv",
+    "short_question_text": "Binge Drinking",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2022",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Prevention",
+    "measure": "Visited dentist or dental clinic in the past year among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Crude prevalence",
+    "data_value": "69.0",
+    "low_confidence_limit": "65.7",
+    "high_confidence_limit": "72.1",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "PREVENT",
+    "measureid": "DENTAL",
+    "datavaluetypeid": "CrdPrv",
+    "short_question_text": "Dental Visit",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Status",
+    "measure": "Fair or poor self-rated health status among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Age-adjusted prevalence",
+    "data_value": "14.3",
+    "low_confidence_limit": "11.9",
+    "high_confidence_limit": "16.9",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "HLTHSTAT",
+    "measureid": "GHLTH",
+    "datavaluetypeid": "AgeAdjPrv",
+    "short_question_text": "General Health",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Disability",
+    "measure": "Vision disability among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Crude prevalence",
+    "data_value": "4.2",
+    "low_confidence_limit": "3.6",
+    "high_confidence_limit": "4.9",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "DISABLT",
+    "measureid": "VISION",
+    "datavaluetypeid": "CrdPrv",
+    "short_question_text": "Vision Disability",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Outcomes",
+    "measure": "Cancer (non-skin) or melanoma among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Age-adjusted prevalence",
+    "data_value": "7.7",
+    "low_confidence_limit": "6.9",
+    "high_confidence_limit": "8.5",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "HLTHOUT",
+    "measureid": "CANCER",
+    "datavaluetypeid": "AgeAdjPrv",
+    "short_question_text": "Cancer (non-skin) or Melanoma",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2022",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Prevention",
+    "measure": "Mammography use among women aged 50-74 years",
+    "data_value_unit": "%",
+    "data_value_type": "Age-adjusted prevalence",
+    "data_value": "71.3",
+    "low_confidence_limit": "62.9",
+    "high_confidence_limit": "78.5",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "PREVENT",
+    "measureid": "MAMMOUSE",
+    "datavaluetypeid": "AgeAdjPrv",
+    "short_question_text": "Mammography",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Outcomes",
+    "measure": "Diagnosed diabetes among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Crude prevalence",
+    "data_value": "9.3",
+    "low_confidence_limit": "7.7",
+    "high_confidence_limit": "10.9",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "HLTHOUT",
+    "measureid": "DIABETES",
+    "datavaluetypeid": "CrdPrv",
+    "short_question_text": "Diabetes",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Outcomes",
+    "measure": "Diagnosed diabetes among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Age-adjusted prevalence",
+    "data_value": "7.5",
+    "low_confidence_limit": "6.3",
+    "high_confidence_limit": "8.8",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "HLTHOUT",
+    "measureid": "DIABETES",
+    "datavaluetypeid": "AgeAdjPrv",
+    "short_question_text": "Diabetes",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Disability",
+    "measure": "Hearing disability among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Crude prevalence",
+    "data_value": "7.4",
+    "low_confidence_limit": "6.4",
+    "high_confidence_limit": "8.4",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "DISABLT",
+    "measureid": "HEARING",
+    "datavaluetypeid": "CrdPrv",
+    "short_question_text": "Hearing Disability",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Outcomes",
+    "measure": "Obesity among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Crude prevalence",
+    "data_value": "20.9",
+    "low_confidence_limit": "15.8",
+    "high_confidence_limit": "26.5",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "HLTHOUT",
+    "measureid": "OBESITY",
+    "datavaluetypeid": "CrdPrv",
+    "short_question_text": "Obesity",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Outcomes",
+    "measure": "Obesity among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Age-adjusted prevalence",
+    "data_value": "20.8",
+    "low_confidence_limit": "15.8",
+    "high_confidence_limit": "26.4",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "HLTHOUT",
+    "measureid": "OBESITY",
+    "datavaluetypeid": "AgeAdjPrv",
+    "short_question_text": "Obesity",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Disability",
+    "measure": "Vision disability among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Age-adjusted prevalence",
+    "data_value": "4.0",
+    "low_confidence_limit": "3.4",
+    "high_confidence_limit": "4.5",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "DISABLT",
+    "measureid": "VISION",
+    "datavaluetypeid": "AgeAdjPrv",
+    "short_question_text": "Vision Disability",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Disability",
+    "measure": "Cognitive disability among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Crude prevalence",
+    "data_value": "13.2",
+    "low_confidence_limit": "11.2",
+    "high_confidence_limit": "15.3",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "DISABLT",
+    "measureid": "COGNITION",
+    "datavaluetypeid": "CrdPrv",
+    "short_question_text": "Cognitive Disability",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Prevention",
+    "measure": "Current lack of health insurance among adults aged 18-64 years",
+    "data_value_unit": "%",
+    "data_value_type": "Age-adjusted prevalence",
+    "data_value": "9.1",
+    "low_confidence_limit": "7.2",
+    "high_confidence_limit": "11.5",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "PREVENT",
+    "measureid": "ACCESS2",
+    "datavaluetypeid": "AgeAdjPrv",
+    "short_question_text": "Health Insurance",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Outcomes",
+    "measure": "Chronic obstructive pulmonary disease among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Age-adjusted prevalence",
+    "data_value": "5.2",
+    "low_confidence_limit": "4.2",
+    "high_confidence_limit": "6.2",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "HLTHOUT",
+    "measureid": "COPD",
+    "datavaluetypeid": "AgeAdjPrv",
+    "short_question_text": "COPD",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Outcomes",
+    "measure": "Stroke among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Age-adjusted prevalence",
+    "data_value": "2.6",
+    "low_confidence_limit": "2.3",
+    "high_confidence_limit": "2.9",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "HLTHOUT",
+    "measureid": "STROKE",
+    "datavaluetypeid": "AgeAdjPrv",
+    "short_question_text": "Stroke",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Prevention",
+    "measure": "Visits to doctor for routine checkup within the past year among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Crude prevalence",
+    "data_value": "73.1",
+    "low_confidence_limit": "69.1",
+    "high_confidence_limit": "76.9",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "PREVENT",
+    "measureid": "CHECKUP",
+    "datavaluetypeid": "CrdPrv",
+    "short_question_text": "Annual Checkup",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Risk Behaviors",
+    "measure": "No leisure-time physical activity among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Crude prevalence",
+    "data_value": "16.1",
+    "low_confidence_limit": "12.7",
+    "high_confidence_limit": "19.7",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "RISKBEH",
+    "measureid": "LPA",
+    "datavaluetypeid": "CrdPrv",
+    "short_question_text": "Physical Inactivity",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Disability",
+    "measure": "Self-care disability among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Age-adjusted prevalence",
+    "data_value": "2.8",
+    "low_confidence_limit": "2.4",
+    "high_confidence_limit": "3.3",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "DISABLT",
+    "measureid": "SELFCARE",
+    "datavaluetypeid": "AgeAdjPrv",
+    "short_question_text": "Self-care Disability",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Status",
+    "measure": "Frequent mental distress among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Crude prevalence",
+    "data_value": "15.6",
+    "low_confidence_limit": "13.5",
+    "high_confidence_limit": "17.8",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "HLTHSTAT",
+    "measureid": "MHLTH",
+    "datavaluetypeid": "CrdPrv",
+    "short_question_text": "Frequent Mental Distress",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Outcomes",
+    "measure": "Current asthma among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Crude prevalence",
+    "data_value": "11.1",
+    "low_confidence_limit": "9.8",
+    "high_confidence_limit": "12.5",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "HLTHOUT",
+    "measureid": "CASTHMA",
+    "datavaluetypeid": "CrdPrv",
+    "short_question_text": "Current Asthma",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Disability",
+    "measure": "Mobility disability among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Age-adjusted prevalence",
+    "data_value": "9.6",
+    "low_confidence_limit": "7.8",
+    "high_confidence_limit": "11.3",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "DISABLT",
+    "measureid": "MOBILITY",
+    "datavaluetypeid": "AgeAdjPrv",
+    "short_question_text": "Mobility Disability",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Status",
+    "measure": "Fair or poor self-rated health status among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Crude prevalence",
+    "data_value": "15.2",
+    "low_confidence_limit": "12.5",
+    "high_confidence_limit": "18.0",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "HLTHSTAT",
+    "measureid": "GHLTH",
+    "datavaluetypeid": "CrdPrv",
+    "short_question_text": "General Health",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2022",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Prevention",
+    "measure": "Visited dentist or dental clinic in the past year among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Age-adjusted prevalence",
+    "data_value": "68.1",
+    "low_confidence_limit": "64.8",
+    "high_confidence_limit": "71.3",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "PREVENT",
+    "measureid": "DENTAL",
+    "datavaluetypeid": "AgeAdjPrv",
+    "short_question_text": "Dental Visit",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Prevention",
+    "measure": "Cholesterol screening among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Age-adjusted prevalence",
+    "data_value": "84.6",
+    "low_confidence_limit": "82.1",
+    "high_confidence_limit": "86.8",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "PREVENT",
+    "measureid": "CHOLSCREEN",
+    "datavaluetypeid": "AgeAdjPrv",
+    "short_question_text": "Cholesterol Screening",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Risk Behaviors",
+    "measure": "Binge drinking among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Crude prevalence",
+    "data_value": "18.5",
+    "low_confidence_limit": "15.4",
+    "high_confidence_limit": "22.0",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "RISKBEH",
+    "measureid": "BINGE",
+    "datavaluetypeid": "CrdPrv",
+    "short_question_text": "Binge Drinking",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Outcomes",
+    "measure": "High cholesterol among adults who have ever been screened",
+    "data_value_unit": "%",
+    "data_value_type": "Age-adjusted prevalence",
+    "data_value": "27.8",
+    "low_confidence_limit": "24.0",
+    "high_confidence_limit": "31.7",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "HLTHOUT",
+    "measureid": "HIGHCHOL",
+    "datavaluetypeid": "AgeAdjPrv",
+    "short_question_text": "High Cholesterol",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Outcomes",
+    "measure": "Depression among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Crude prevalence",
+    "data_value": "21.9",
+    "low_confidence_limit": "18.6",
+    "high_confidence_limit": "25.4",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "HLTHOUT",
+    "measureid": "DEPRESSION",
+    "datavaluetypeid": "CrdPrv",
+    "short_question_text": "Depression",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2022",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Outcomes",
+    "measure": "All teeth lost among adults aged >=65 years",
+    "data_value_unit": "%",
+    "data_value_type": "Crude prevalence",
+    "data_value": "7.1",
+    "low_confidence_limit": "5.6",
+    "high_confidence_limit": "8.8",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "HLTHOUT",
+    "measureid": "TEETHLOST",
+    "datavaluetypeid": "CrdPrv",
+    "short_question_text": "All Teeth Lost",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Risk Behaviors",
+    "measure": "No leisure-time physical activity among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Age-adjusted prevalence",
+    "data_value": "15.3",
+    "low_confidence_limit": "12.2",
+    "high_confidence_limit": "18.8",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "RISKBEH",
+    "measureid": "LPA",
+    "datavaluetypeid": "AgeAdjPrv",
+    "short_question_text": "Physical Inactivity",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Risk Behaviors",
+    "measure": "Current cigarette smoking among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Crude prevalence",
+    "data_value": "11.7",
+    "low_confidence_limit": "9.1",
+    "high_confidence_limit": "14.4",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "RISKBEH",
+    "measureid": "CSMOKING",
+    "datavaluetypeid": "CrdPrv",
+    "short_question_text": "Current Cigarette Smoking",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2022",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Risk Behaviors",
+    "measure": "Short sleep duration among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Crude prevalence",
+    "data_value": "27.5",
+    "low_confidence_limit": "22.5",
+    "high_confidence_limit": "32.9",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "RISKBEH",
+    "measureid": "SLEEP",
+    "datavaluetypeid": "CrdPrv",
+    "short_question_text": "Short Sleep Duration",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Prevention",
+    "measure": "Taking medicine to control high blood pressure among adults with high blood pressure",
+    "data_value_unit": "%",
+    "data_value_type": "Age-adjusted prevalence",
+    "data_value": "49.8",
+    "low_confidence_limit": "45.1",
+    "high_confidence_limit": "54.3",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "PREVENT",
+    "measureid": "BPMED",
+    "datavaluetypeid": "AgeAdjPrv",
+    "short_question_text": "High Blood Pressure Medication",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2022",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Prevention",
+    "measure": "Colorectal cancer screening among adults aged 45\u201375 years",
+    "data_value_unit": "%",
+    "data_value_type": "Age-adjusted prevalence",
+    "data_value": "56.1",
+    "low_confidence_limit": "50.9",
+    "high_confidence_limit": "61.0",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "PREVENT",
+    "measureid": "COLON_SCREEN",
+    "datavaluetypeid": "AgeAdjPrv",
+    "short_question_text": "Colorectal Cancer Screening",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Outcomes",
+    "measure": "Current asthma among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Age-adjusted prevalence",
+    "data_value": "11.2",
+    "low_confidence_limit": "9.8",
+    "high_confidence_limit": "12.5",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "HLTHOUT",
+    "measureid": "CASTHMA",
+    "datavaluetypeid": "AgeAdjPrv",
+    "short_question_text": "Current Asthma",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Disability",
+    "measure": "Any disability among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Age-adjusted prevalence",
+    "data_value": "26.3",
+    "low_confidence_limit": "22.2",
+    "high_confidence_limit": "30.3",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "DISABLT",
+    "measureid": "DISABILITY",
+    "datavaluetypeid": "AgeAdjPrv",
+    "short_question_text": "Any Disability",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Prevention",
+    "measure": "Taking medicine to control high blood pressure among adults with high blood pressure",
+    "data_value_unit": "%",
+    "data_value_type": "Crude prevalence",
+    "data_value": "72.8",
+    "low_confidence_limit": "68.8",
+    "high_confidence_limit": "76.2",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "PREVENT",
+    "measureid": "BPMED",
+    "datavaluetypeid": "CrdPrv",
+    "short_question_text": "High Blood Pressure Medication",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Prevention",
+    "measure": "Cholesterol screening among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Crude prevalence",
+    "data_value": "86.8",
+    "low_confidence_limit": "84.7",
+    "high_confidence_limit": "88.8",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "PREVENT",
+    "measureid": "CHOLSCREEN",
+    "datavaluetypeid": "CrdPrv",
+    "short_question_text": "Cholesterol Screening",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Disability",
+    "measure": "Mobility disability among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Crude prevalence",
+    "data_value": "11.4",
+    "low_confidence_limit": "9.2",
+    "high_confidence_limit": "13.5",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "DISABLT",
+    "measureid": "MOBILITY",
+    "datavaluetypeid": "CrdPrv",
+    "short_question_text": "Mobility Disability",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Outcomes",
+    "measure": "Arthritis among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Age-adjusted prevalence",
+    "data_value": "22.5",
+    "low_confidence_limit": "19.6",
+    "high_confidence_limit": "25.3",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "HLTHOUT",
+    "measureid": "ARTHRITIS",
+    "datavaluetypeid": "AgeAdjPrv",
+    "short_question_text": "Arthritis",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Status",
+    "measure": "Frequent physical distress among adults",
+    "data_value_unit": "%",
+    "data_value_type": "Age-adjusted prevalence",
+    "data_value": "11.6",
+    "low_confidence_limit": "9.9",
+    "high_confidence_limit": "13.3",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "HLTHSTAT",
+    "measureid": "PHLTH",
+    "datavaluetypeid": "AgeAdjPrv",
+    "short_question_text": "Frequent Physical Distress",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  },
+  {
+    "year": "2023",
+    "stateabbr": "CO",
+    "statedesc": "Colorado",
+    "locationname": "La Plata",
+    "datasource": "BRFSS",
+    "category": "Health Outcomes",
+    "measure": "High cholesterol among adults who have ever been screened",
+    "data_value_unit": "%",
+    "data_value_type": "Crude prevalence",
+    "data_value": "33.2",
+    "low_confidence_limit": "29.1",
+    "high_confidence_limit": "37.3",
+    "totalpopulation": "56407",
+    "totalpop18plus": "46809",
+    "locationid": "08067",
+    "categoryid": "HLTHOUT",
+    "measureid": "HIGHCHOL",
+    "datavaluetypeid": "CrdPrv",
+    "short_question_text": "High Cholesterol",
+    "geolocation": {
+      "type": "Point",
+      "coordinates": [
+        -107.843443917633,
+        37.2866354863835
+      ]
+    }
+  }
+]
