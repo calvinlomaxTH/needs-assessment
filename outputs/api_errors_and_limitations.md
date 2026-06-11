@@ -1,19 +1,20 @@
 # API Errors and Data Limitations
 
-This file records API errors and known limitations relevant to the needs assessment.
-
 ## General limitations
 
-- Some county-level behavioral health prevalence indicators are modeled estimates rather than observed survey estimates.
-- CDC WONDER/NVSS mortality queries may require manual download fallback and may suppress small counts.
-- HUD homelessness data may be reported by Continuum of Care rather than county.
-- NCES school data may require school/district-to-county crosswalks.
-- HRSA HPSA and MUA/P geographies may not align exactly with county boundaries.
-- SAMHSA treatment locator data should be validated locally for capacity, payer acceptance, and service availability.
-- Internal client, service utilization, staffing, referral, satisfaction, interview, and focus group data are not available through government APIs.
-- Qualitative findings should be interpreted as illustrative unless the study design supports statistical generalization.
+- Each source determines its own most recent available data; years will not necessarily match across sources.
+- ACS requests are chunked to prevent missing data from the Census API variable limit.
+- ACS estimates are period estimates and include margins of error.
+- ACS calculated percentages do not include derived margins of error.
+- ACS sum margins of error are approximated using square root of sum of squared MOEs.
+- PUBLIC_COVERAGE_RATE is not Medicaid-only coverage.
+- MEDICAID_COVERAGE_RATE is left as a placeholder unless a Medicaid-specific source is connected.
+- CDC PLACES values are modeled estimates.
+- BLS LAUS county series IDs are inferred and should be validated before publication.
+- CDC WONDER/NVSS mortality data may suppress small counts and may require manual downloads.
+- HRSA, SAMHSA, HUD, and NCES source schemas may require source-specific download handling or crosswalks.
+- Internal and qualitative data cannot be filled from government APIs.
 
-## API errors captured during this run
+## Captured errors
 
-- Could not detect latest ACS 5-year profile year; defaulting to 2023.
-- BLS LAUS returned no annual average observations for series LAUCN080670000000003.
+- GET JSON failed: https://api.census.gov/data/2024/acs/acs5//variables.json params={} error=404: <!doctype html><html lang="en"><head><title>HTTP Status 404 ? Not Found</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 404 ? Not Found</h1></body></html>

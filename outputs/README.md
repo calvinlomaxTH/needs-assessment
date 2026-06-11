@@ -1,29 +1,30 @@
-# Needs Assessment Data Extraction
+# Needs Assessment Data Outputs
 
-This folder contains outputs from `needs_assessment_data.py`.
+Service area: Cook County, Illinois
+County: IL
+State FIPS: 17
+County FIPS: 031
 
-## Run configuration
+## Files
 
-- Service area: La Plata County, Colorado
-- County: La Plata County
-- State abbreviation: CO
-- State FIPS: 08
-- County FIPS: 067
-- Years: latest
-
-## Output files
-
-- `indicator_catalog.csv`: all indicators, including government API indicators, public download indicators, and internal/qualitative placeholders.
-- `needs_assessment_data_long.csv`: extracted and placeholder observations in long format.
-- `source_metadata.json`: run configuration, citation registry, and API errors.
-- `data_availability.md`: readable availability table.
-- `api_errors_and_limitations.md`: errors and known limitations.
+- `indicator_catalog.csv`: indicator inventory with summary, detailed description, units, and citation metadata.
+- `needs_assessment_data_long.csv`: extracted and placeholder observations with summaries, descriptions, source labels, units, and citations.
+- `source_metadata.json`: run configuration, citation registry, latest source summary, and API errors.
+- `data_availability.md`: readable data availability table.
 - `citation_appendix.md`: citation registry.
+- `api_errors_and_limitations.md`: errors and known limitations.
 
-## Important review steps
+## Unit logic
 
-1. Validate all ACS estimates and margins of error.
-2. Confirm whether CDC PLACES measures are modeled estimates and label them as such.
-3. Download CDC WONDER/NVSS suicide and overdose mortality data manually if needed.
-4. Validate treatment facility availability with local partners.
-5. Load internal client demographics, service utilization, staffing, and qualitative data separately.
+- ACS count variables are reported as people or households.
+- ACS dollar variables are reported as dollars.
+- ACS percentage variables are reported as percent.
+- Script-calculated percentages use numerator / denominator * 100.
+- BLS LAUS unemployment rate is reported as percent.
+- CDC PLACES units are taken from API metadata and normalized where needed.
+- Manual/download placeholders use the expected unit for that indicator.
+
+## Important coverage note
+
+- PUBLIC_COVERAGE_RATE is ACS public insurance coverage.
+- MEDICAID_COVERAGE_RATE is not derived from PUBLIC_COVERAGE_RATE; it requires a Medicaid-specific source.

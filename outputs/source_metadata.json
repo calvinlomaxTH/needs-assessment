@@ -1,11 +1,11 @@
 {
-  "retrieved_at": "2026-06-11T15:07:40.404834+00:00",
+  "retrieved_at": "2026-06-11T16:20:52.825616+00:00",
   "run_config": {
-    "state_fips": "08",
-    "county_fips": "067",
-    "state_abbr": "CO",
-    "county_name": "La Plata County",
-    "service_area_name": "La Plata County, Colorado",
+    "state_fips": "17",
+    "county_fips": "031",
+    "state_abbr": "IL",
+    "county_name": "IL",
+    "service_area_name": "Cook County, Illinois",
     "latest": true,
     "years": [],
     "census_api_key": "4a550c8493494c363ee0afc87c2af4e97d4a169b"
@@ -14,22 +14,12 @@
     {
       "citation_id": "CNA_CRITERIA_2023",
       "citation_label": "CCBHC Community Needs Assessment Criteria",
-      "source_title": "Certified Community Behavioral Health Clinic (CCBHC) Requirements for Community Needs Assessment",
+      "source_title": "Certified Community Behavioral Health Clinic Requirements for Community Needs Assessment",
       "source_type": "Uploaded project reference",
       "source_agency_or_author": "Third Horizon Strategies / SAMHSA criteria summary",
       "publication_date": "2023-11-06",
       "url_or_file_reference": "CCBHC Community Needs Assessment Criteria.pdf",
-      "notes": "Defines required CNA elements: service area, prevalence of mental health and SUD needs, economic factors and SDOH, cultures and languages, underserved populations, staffing-plan alignment, update plan, and stakeholder input."
-    },
-    {
-      "citation_id": "AXIS_2026_CNA",
-      "citation_label": "Axis 2026 CCBHC CNA",
-      "source_title": "Certified Community Behavioral Health Clinic (CCBHC) Community Needs Assessment, La Plata County, Colorado",
-      "source_type": "Uploaded needs assessment example",
-      "source_agency_or_author": "Third Horizon for Axis Health System",
-      "publication_date": "2026-03-23",
-      "url_or_file_reference": "Axis Needs Assessment March 26 Final.pdf",
-      "notes": "Example of a completed CNA using ACS, BRFSS, CDC/NVSS/WONDER, CDC PLACES, HRSA, NCES, Census, SAMHSA Buprenorphine Practitioner Locator, and N-SUMHSS."
+      "notes": "Defines required CNA elements: service area, mental health/SUD prevalence, SDOH, cultures/languages, underserved populations, staffing alignment, update plans, and stakeholder input."
     },
     {
       "citation_id": "CCBHC_TOOLKIT_2024",
@@ -39,7 +29,17 @@
       "source_agency_or_author": "National Council for Mental Wellbeing / CCBHC-E NTTAC",
       "publication_date": "2024-01",
       "url_or_file_reference": "CCBHC-Needs-Assessment-Toolkit.pdf",
-      "notes": "Describes the CNA as the foundation of the CCBHC model and emphasizes mixed quantitative and qualitative data, stakeholder engagement, staffing, services, partnerships, and CQI."
+      "notes": "Guidance for quantitative data, qualitative data, engagement, services, staffing, partnerships, and CQI."
+    },
+    {
+      "citation_id": "AXIS_2026_CNA",
+      "citation_label": "Axis 2026 CCBHC CNA",
+      "source_title": "Certified Community Behavioral Health Clinic Community Needs Assessment, La Plata County, Colorado",
+      "source_type": "Uploaded needs assessment example",
+      "source_agency_or_author": "Third Horizon for Axis Health System",
+      "publication_date": "2026-03-23",
+      "url_or_file_reference": "Axis Needs Assessment March 26 Final.pdf",
+      "notes": "Example of a completed CNA using ACS, BRFSS, CDC/NVSS/WONDER, CDC PLACES, HRSA, NCES, Census, SAMHSA Buprenorphine Practitioner Locator, and N-SUMHSS."
     },
     {
       "citation_id": "CENSUS_ACS_API",
@@ -49,7 +49,7 @@
       "source_agency_or_author": "U.S. Census Bureau",
       "publication_date": "Ongoing",
       "url_or_file_reference": "https://api.census.gov/data.html",
-      "notes": "Primary source for population, demographics, language, poverty, housing, insurance, transportation, and SDOH indicators."
+      "notes": "Source for population, demographics, language, poverty, housing, insurance, transportation, and SDOH indicators."
     },
     {
       "citation_id": "BLS_LAUS_API",
@@ -59,7 +59,7 @@
       "source_agency_or_author": "U.S. Bureau of Labor Statistics",
       "publication_date": "Ongoing",
       "url_or_file_reference": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
-      "notes": "Source for unemployment indicators where county series IDs can be constructed or supplied."
+      "notes": "Source for county labor force and unemployment indicators."
     },
     {
       "citation_id": "CDC_PLACES_API",
@@ -79,7 +79,7 @@
       "source_agency_or_author": "Centers for Disease Control and Prevention",
       "publication_date": "Ongoing",
       "url_or_file_reference": "https://wonder.cdc.gov/",
-      "notes": "Source for mortality indicators such as suicide and drug overdose; programmatic access may require manual query/download fallback."
+      "notes": "Source for suicide and drug overdose mortality; programmatic access may require manual query/download fallback."
     },
     {
       "citation_id": "HRSA_DATA_WAREHOUSE",
@@ -89,7 +89,7 @@
       "source_agency_or_author": "Health Resources and Services Administration",
       "publication_date": "Ongoing",
       "url_or_file_reference": "https://data.hrsa.gov/",
-      "notes": "Source for HPSA, MUA/P, provider shortage, health center, and workforce/resource indicators."
+      "notes": "Source for HPSA, MUA/P, health center, workforce, and resource indicators."
     },
     {
       "citation_id": "SAMHSA_FINDTREATMENT",
@@ -99,7 +99,7 @@
       "source_agency_or_author": "Substance Abuse and Mental Health Services Administration",
       "publication_date": "Ongoing",
       "url_or_file_reference": "https://findtreatment.gov/",
-      "notes": "Source for treatment facility availability, MOUD-related provider/facility data, and behavioral health service infrastructure."
+      "notes": "Source for behavioral health treatment facility availability and service infrastructure."
     },
     {
       "citation_id": "NCES_CCD",
@@ -109,7 +109,7 @@
       "source_agency_or_author": "National Center for Education Statistics",
       "publication_date": "Ongoing",
       "url_or_file_reference": "https://nces.ed.gov/ccd/",
-      "notes": "Source for school enrollment, district demographics, and school meal poverty proxy indicators."
+      "notes": "Source for school enrollment, district demographics, and school poverty proxy indicators."
     },
     {
       "citation_id": "HUD_PIT_HIC",
@@ -120,16 +120,6 @@
       "publication_date": "Annual",
       "url_or_file_reference": "https://www.hudexchange.info/programs/hdx/pit-hic/",
       "notes": "Source for homelessness indicators, often available by Continuum of Care rather than county."
-    },
-    {
-      "citation_id": "CMS_MEDICAID_DATA",
-      "citation_label": "CMS Medicaid Data",
-      "source_title": "Data.Medicaid.gov and CMS Medicaid data resources",
-      "source_type": "Government API / public files",
-      "source_agency_or_author": "Centers for Medicare & Medicaid Services",
-      "publication_date": "Ongoing",
-      "url_or_file_reference": "https://data.medicaid.gov/",
-      "notes": "Potential source for Medicaid-related indicators, depending on geography and dataset availability."
     },
     {
       "citation_id": "INTERNAL_PLACEHOLDER",
@@ -143,7 +133,62 @@
     }
   ],
   "errors": [
-    "Could not detect latest ACS 5-year profile year; defaulting to 2023.",
-    "BLS LAUS returned no annual average observations for series LAUCN080670000000003."
-  ]
+    "GET JSON failed: https://api.census.gov/data/2024/acs/acs5//variables.json params={} error=404: <!doctype html><html lang=\"en\"><head><title>HTTP Status 404 ? Not Found</title><style type=\"text/css\">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 404 ? Not Found</h1></body></html>"
+  ],
+  "source_latest_summary": {
+    "ACS 5-year Detailed Tables (U.S. Census Bureau)": [
+      "2024"
+    ],
+    "ACS 5-year Data Profile (U.S. Census Bureau)": [
+      "2024"
+    ],
+    "ACS 5-year Subject Tables (U.S. Census Bureau)": [
+      "2024"
+    ],
+    "BLS LAUS (U.S. Bureau of Labor Statistics)": [
+      "2025 December"
+    ],
+    "CDC PLACES (Centers for Disease Control and Prevention)": [
+      "2023"
+    ],
+    "CMS Medicaid / ACS detailed Medicaid table (CMS / U.S. Census Bureau)": [
+      "current source as of retrieval; manual/download connector needed"
+    ],
+    "CDC WONDER / NVSS (Centers for Disease Control and Prevention)": [
+      "current source as of retrieval; manual/download connector needed"
+    ],
+    "HRSA Data Warehouse (Health Resources and Services Administration)": [
+      "current source as of retrieval; manual/download connector needed"
+    ],
+    "SAMHSA FindTreatment / N-SUMHSS (Substance Abuse and Mental Health Services Administration)": [
+      "current source as of retrieval; manual/download connector needed"
+    ],
+    "HUD PIT/HIC (U.S. Department of Housing and Urban Development)": [
+      "current source as of retrieval; manual/download connector needed"
+    ],
+    "NCES Common Core of Data (National Center for Education Statistics)": [
+      "current source as of retrieval; manual/download connector needed"
+    ],
+    "Internal EHR / client data (Client organization)": [
+      "current source as of retrieval; manual/download connector needed"
+    ],
+    "Internal operations data (Client organization)": [
+      "current source as of retrieval; manual/download connector needed"
+    ],
+    "Internal staffing plan (Client organization)": [
+      "current source as of retrieval; manual/download connector needed"
+    ],
+    "Primary qualitative research (Client organization / consultant)": [
+      "current source as of retrieval; manual/download connector needed"
+    ]
+  },
+  "unit_logic_summary": {
+    "ACS counts": "people or households, based on ACS table definition",
+    "ACS dollars": "dollars, based on ACS median dollar variable",
+    "ACS source percentages": "percent, based on ACS PE percentage variables",
+    "ACS calculated percentages": "percent = numerator / denominator * 100",
+    "BLS LAUS unemployment": "percent, based on LAUS unemployment-rate series",
+    "CDC PLACES": "API-provided unit normalized where needed",
+    "Manual placeholders": "expected units from indicator definition"
+  }
 }
