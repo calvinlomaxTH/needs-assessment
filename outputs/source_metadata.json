@@ -1,46 +1,22 @@
 {
-  "retrieved_at": "2026-06-11T16:20:52.825616+00:00",
+  "retrieved_at": "2026-06-11T17:06:19.080797+00:00",
   "run_config": {
     "state_fips": "17",
     "county_fips": "031",
     "state_abbr": "IL",
-    "county_name": "IL",
+    "county_name": "Cook County",
     "service_area_name": "Cook County, Illinois",
     "latest": true,
     "years": [],
-    "census_api_key": "4a550c8493494c363ee0afc87c2af4e97d4a169b"
+    "census_api_key": true,
+    "comparison_geographies": [
+      "county",
+      "state",
+      "us"
+    ],
+    "verbose": true
   },
   "citations": [
-    {
-      "citation_id": "CNA_CRITERIA_2023",
-      "citation_label": "CCBHC Community Needs Assessment Criteria",
-      "source_title": "Certified Community Behavioral Health Clinic Requirements for Community Needs Assessment",
-      "source_type": "Uploaded project reference",
-      "source_agency_or_author": "Third Horizon Strategies / SAMHSA criteria summary",
-      "publication_date": "2023-11-06",
-      "url_or_file_reference": "CCBHC Community Needs Assessment Criteria.pdf",
-      "notes": "Defines required CNA elements: service area, mental health/SUD prevalence, SDOH, cultures/languages, underserved populations, staffing alignment, update plans, and stakeholder input."
-    },
-    {
-      "citation_id": "CCBHC_TOOLKIT_2024",
-      "citation_label": "CCBHC CNA Toolkit",
-      "source_title": "CCBHC Community Needs Assessment Toolkit",
-      "source_type": "Uploaded toolkit",
-      "source_agency_or_author": "National Council for Mental Wellbeing / CCBHC-E NTTAC",
-      "publication_date": "2024-01",
-      "url_or_file_reference": "CCBHC-Needs-Assessment-Toolkit.pdf",
-      "notes": "Guidance for quantitative data, qualitative data, engagement, services, staffing, partnerships, and CQI."
-    },
-    {
-      "citation_id": "AXIS_2026_CNA",
-      "citation_label": "Axis 2026 CCBHC CNA",
-      "source_title": "Certified Community Behavioral Health Clinic Community Needs Assessment, La Plata County, Colorado",
-      "source_type": "Uploaded needs assessment example",
-      "source_agency_or_author": "Third Horizon for Axis Health System",
-      "publication_date": "2026-03-23",
-      "url_or_file_reference": "Axis Needs Assessment March 26 Final.pdf",
-      "notes": "Example of a completed CNA using ACS, BRFSS, CDC/NVSS/WONDER, CDC PLACES, HRSA, NCES, Census, SAMHSA Buprenorphine Practitioner Locator, and N-SUMHSS."
-    },
     {
       "citation_id": "CENSUS_ACS_API",
       "citation_label": "U.S. Census ACS API",
@@ -50,6 +26,16 @@
       "publication_date": "Ongoing",
       "url_or_file_reference": "https://api.census.gov/data.html",
       "notes": "Source for population, demographics, language, poverty, housing, insurance, transportation, and SDOH indicators."
+    },
+    {
+      "citation_id": "CMS_MEDICAID_DATA",
+      "citation_label": "CMS Medicaid Data",
+      "source_title": "Data.Medicaid.gov and Medicaid administrative data",
+      "source_type": "Government API / public files",
+      "source_agency_or_author": "Centers for Medicare & Medicaid Services",
+      "publication_date": "Ongoing",
+      "url_or_file_reference": "https://data.medicaid.gov/",
+      "notes": "Potential source for Medicaid administrative indicators."
     },
     {
       "citation_id": "BLS_LAUS_API",
@@ -69,7 +55,7 @@
       "source_agency_or_author": "Centers for Disease Control and Prevention",
       "publication_date": "Ongoing",
       "url_or_file_reference": "https://data.cdc.gov/",
-      "notes": "Source for modeled county/local health indicators such as frequent mental distress, depression, binge drinking, and smoking."
+      "notes": "Source for modeled county/local health indicators."
     },
     {
       "citation_id": "CDC_WONDER_NVSS",
@@ -79,7 +65,7 @@
       "source_agency_or_author": "Centers for Disease Control and Prevention",
       "publication_date": "Ongoing",
       "url_or_file_reference": "https://wonder.cdc.gov/",
-      "notes": "Source for suicide and drug overdose mortality; programmatic access may require manual query/download fallback."
+      "notes": "Source for suicide and drug overdose mortality."
     },
     {
       "citation_id": "HRSA_DATA_WAREHOUSE",
@@ -99,7 +85,7 @@
       "source_agency_or_author": "Substance Abuse and Mental Health Services Administration",
       "publication_date": "Ongoing",
       "url_or_file_reference": "https://findtreatment.gov/",
-      "notes": "Source for behavioral health treatment facility availability and service infrastructure."
+      "notes": "Source for behavioral health treatment facility availability."
     },
     {
       "citation_id": "NCES_CCD",
@@ -109,7 +95,7 @@
       "source_agency_or_author": "National Center for Education Statistics",
       "publication_date": "Ongoing",
       "url_or_file_reference": "https://nces.ed.gov/ccd/",
-      "notes": "Source for school enrollment, district demographics, and school poverty proxy indicators."
+      "notes": "Source for school enrollment and district demographics."
     },
     {
       "citation_id": "HUD_PIT_HIC",
@@ -119,7 +105,7 @@
       "source_agency_or_author": "U.S. Department of Housing and Urban Development",
       "publication_date": "Annual",
       "url_or_file_reference": "https://www.hudexchange.info/programs/hdx/pit-hic/",
-      "notes": "Source for homelessness indicators, often available by Continuum of Care rather than county."
+      "notes": "Source for homelessness indicators."
     },
     {
       "citation_id": "INTERNAL_PLACEHOLDER",
@@ -129,12 +115,11 @@
       "source_agency_or_author": "Client organization",
       "publication_date": "Project-specific",
       "url_or_file_reference": "Not available through government API",
-      "notes": "Used for EHR/client demographics, service utilization, staffing, wait times, referrals, patient satisfaction, and qualitative findings."
+      "notes": "Used for EHR, staffing, utilization, and qualitative findings."
     }
   ],
-  "errors": [
-    "GET JSON failed: https://api.census.gov/data/2024/acs/acs5//variables.json params={} error=404: <!doctype html><html lang=\"en\"><head><title>HTTP Status 404 ? Not Found</title><style type=\"text/css\">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 404 ? Not Found</h1></body></html>"
-  ],
+  "notes": [],
+  "errors": [],
   "source_latest_summary": {
     "ACS 5-year Detailed Tables (U.S. Census Bureau)": [
       "2024"
@@ -146,12 +131,12 @@
       "2024"
     ],
     "BLS LAUS (U.S. Bureau of Labor Statistics)": [
-      "2025 December"
+      "2024 Calculated annual average from 12 monthly BLS rows"
     ],
     "CDC PLACES (Centers for Disease Control and Prevention)": [
       "2023"
     ],
-    "CMS Medicaid / ACS detailed Medicaid table (CMS / U.S. Census Bureau)": [
+    "CMS Medicaid / ACS Medicaid-specific data (CMS / U.S. Census Bureau)": [
       "current source as of retrieval; manual/download connector needed"
     ],
     "CDC WONDER / NVSS (Centers for Disease Control and Prevention)": [
@@ -183,12 +168,12 @@
     ]
   },
   "unit_logic_summary": {
-    "ACS counts": "people or households, based on ACS table definition",
-    "ACS dollars": "dollars, based on ACS median dollar variable",
-    "ACS source percentages": "percent, based on ACS PE percentage variables",
+    "ACS counts": "people or households",
+    "ACS dollars": "dollars",
+    "ACS percentages": "percent",
     "ACS calculated percentages": "percent = numerator / denominator * 100",
-    "BLS LAUS unemployment": "percent, based on LAUS unemployment-rate series",
-    "CDC PLACES": "API-provided unit normalized where needed",
-    "Manual placeholders": "expected units from indicator definition"
+    "ACS special values": "special values converted to null",
+    "BLS LAUS unemployment": "annual average preferred",
+    "CDC PLACES": "API unit normalized"
   }
 }
