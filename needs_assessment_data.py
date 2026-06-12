@@ -21,7 +21,7 @@ Changes in this version:
 - Internal-only data remain placeholders because they are not government API data.
 
 Install:
-    pip install requests pandas openpyxl pyxlsb
+    pip install requests pandas openpyxl pyxlsb pypdf
 
 Run example:
     export CENSUS_API_KEY="4a550c8493494c363ee0afc87c2af4e97d4a169b"
@@ -81,6 +81,10 @@ ACS_SPECIAL_VALUES = {
 }
 
 HUD_AHAR_2025_PAGE = "https://www.huduser.gov/portal/datasets/ahar/2025-ahar-part-1-pit-estimates-of-homelessness-in-the-us.html"
+HUD_PIT_COC_XLSB_URL = "https://www.huduser.gov/portal/sites/default/files/xls/2007-2025-PIT-Counts-by-CoC.xlsb"
+HUD_PIT_STATE_XLSB_URL = "https://www.huduser.gov/portal/sites/default/files/xls/2007-2025-PIT-Counts-by-State.xlsb"
+HUD_EXCHANGE_POPSUB_BASE = "https://files.hudexchange.info/reports/published"
+HUD_EXCHANGE_POPSUB_REPORTS_PAGE = "https://www.hudexchange.info/programs/coc/coc-homeless-populations-and-subpopulations-reports/"
 CDC_MORTALITY_COUNTY_ENDPOINT = "https://data.cdc.gov/resource/psx4-wq38.json"
 CDC_PLACES_ENDPOINTS = [
     "https://data.cdc.gov/resource/swc5-untb.json",
@@ -460,7 +464,14 @@ def cached_post_json(source_slug: str, url: str, body: dict[str, Any], errors: O
     return None
 
 
-def download_file(source_slug: str, url: str, errors: list[str], filename_hint: Optional[str] = None) -> Optional[Path]:
+def download_file(
+    source_slug: str,
+    url: str,
+    errors: list[str],
+    filename_hint: Optional[str] = None,
+    record_error: bool = True,
+    max_retries: int = MAX_RETRIES,
+) -> Optional[Path]:
     source_dir = CACHE_DIR / source_slug / dt.date.today().isoformat()
     source_dir.mkdir(parents=True, exist_ok=True)
     ext = Path(url.split("?")[0]).suffix or ".dat"
@@ -468,8 +479,11 @@ def download_file(source_slug: str, url: str, errors: list[str], filename_hint: 
     path = source_dir / filename
     if path.exists() and path.stat().st_size > 0:
         return path
+    for cached in sorted((CACHE_DIR / source_slug).glob(f"*/{filename}"), reverse=True):
+        if cached.is_file() and cached.stat().st_size > 0:
+            return cached
     last_error = None
-    for attempt in range(1, MAX_RETRIES + 1):
+    for attempt in range(1, max_retries + 1):
         try:
             time.sleep(REQUEST_SLEEP_SECONDS)
             response = requests.get(url, timeout=REQUEST_TIMEOUT, allow_redirects=True)
@@ -477,13 +491,38 @@ def download_file(source_slug: str, url: str, errors: list[str], filename_hint: 
                 last_error = f"{response.status_code}: {response.text[:500]}"
                 time.sleep(attempt)
                 continue
+            if response.headers.get("x-amzn-waf-action") == "challenge":
+                last_error = "AWS WAF challenge returned instead of file content."
+                break
+            content_type = response.headers.get("content-type", "").lower()
+            if response.status_code == 202 and not response.content:
+                last_error = "HTTP 202 empty response returned instead of file content."
+                break
+            if content_type.startswith("text/html") and not url.lower().endswith((".html", ".htm")):
+                last_error = f"HTML response returned instead of file content: {response.text[:200]}"
+                break
             path.write_bytes(response.content)
             return path
         except Exception as exc:
             last_error = repr(exc)
             time.sleep(attempt)
-    errors.append(f"Failed to download file: {url} error={last_error}")
+    if record_error:
+        errors.append(f"Failed to download file: {url} error={last_error}")
     return None
+
+
+def read_pdf_text(path: Path, errors: list[str], notes: list[str]) -> Optional[str]:
+    try:
+        from pypdf import PdfReader
+    except ImportError:
+        notes.append("Install pypdf to read HUD Exchange PDF fallback files: pip install pypdf")
+        return None
+    try:
+        reader = PdfReader(str(path))
+        return "\n".join(page.extract_text() or "" for page in reader.pages)
+    except Exception as exc:
+        errors.append(f"Failed to read PDF text from {path}: {exc!r}")
+        return None
 
 
 def read_any_table_file(path: Path, errors: list[str], notes: list[str]) -> list[pd.DataFrame]:
@@ -573,7 +612,7 @@ def build_citation_registry() -> dict[str, Citation]:
         Citation("HRSA_DATA_WAREHOUSE", "HRSA Data Warehouse", "HRSA Data Warehouse Shortage Areas Downloads", "Government download", "Health Resources and Services Administration", "Daily", HRSA_SHORTAGE_DOWNLOAD_PAGE, "Mental Health HPSA data."),
         Citation("SAMHSA_FINDTREATMENT", "SAMHSA FindTreatment API", "FindTreatment.gov API", "Government API", "Substance Abuse and Mental Health Services Administration", "Ongoing", SAMHSA_FINDTREATMENT_API, "Facility locator API for mental health and substance use treatment facilities."),
         Citation("NCES_CCD", "NCES Common Core of Data", "Common Core of Data via Education Data Portal", "Government-derived API", "National Center for Education Statistics / Urban Institute", "Annual", "https://educationdata.urban.org/documentation/", "CCD school enrollment data."),
-        Citation("HUD_PIT_HIC", "HUD PIT/HIC", "Annual Homelessness Assessment Report PIT data", "Government public files", "U.S. Department of Housing and Urban Development", "Annual", HUD_AHAR_2025_PAGE, "PIT homelessness data by CoC and state, 2007-2025."),
+        Citation("HUD_PIT_HIC", "HUD PIT/HIC", "Annual Homelessness Assessment Report PIT data", "Government API / public files", "U.S. Department of Housing and Urban Development", "Annual", HUD_AHAR_2025_PAGE, "PIT homelessness data by CoC and state, 2007-2025; HUD Exchange PopSub reports are used as a fallback."),
         Citation("INTERNAL_PLACEHOLDER", "Internal organization data placeholder", "Internal CCBHC data placeholder", "Internal data placeholder", "Client organization", "Project-specific", "Not available through government API", "Used for EHR, staffing, utilization, and qualitative findings."),
     ]
     return {c.citation_id: c for c in citations}
@@ -632,9 +671,9 @@ def build_indicator_definitions() -> dict[str, IndicatorDefinition]:
         indicator_def("SUICIDE_DEATHS_COUNT", "Suicide deaths count", "Mental Health Prevalence and Outcomes", "Suicide death count.", "deaths", "Number of suicide deaths.", "CDC MIVO County count.", "CDC MIVO County", "Centers for Disease Control and Prevention", "API / Socrata", "County", "Annual", "Return one annual CDC MIVO county row for each of the last N years.", "CDC_MIVO_COUNTY", "Counts 1-9 are suppressed.", "What suicide-prevention needs are not visible?"),
         indicator_def("OVERDOSE_MORTALITY", "Drug overdose mortality rate", "Substance Use Prevalence and Outcomes", "Drug overdose mortality rate.", "deaths per 100,000", "Drug overdose deaths per 100,000 population.", "CDC MIVO County rate.", "CDC MIVO County", "Centers for Disease Control and Prevention", "API / Socrata", "County", "Annual", "Return one annual CDC MIVO county row for each of the last N years.", "CDC_MIVO_COUNTY", "Counts 1-9 are suppressed; rates may be modeled.", "Which overdose risks are visible?"),
         indicator_def("OVERDOSE_DEATHS_COUNT", "Drug overdose deaths count", "Substance Use Prevalence and Outcomes", "Drug overdose death count.", "deaths", "Number of drug overdose deaths.", "CDC MIVO County count.", "CDC MIVO County", "Centers for Disease Control and Prevention", "API / Socrata", "County", "Annual", "Return one annual CDC MIVO county row for each of the last N years.", "CDC_MIVO_COUNTY", "Counts 1-9 are suppressed.", "Which overdose risks are visible?"),
-        indicator_def("HOMELESSNESS_PIT", "People experiencing homelessness", "Housing Stability", "PIT homelessness total.", "people", "People counted as experiencing homelessness on a single night.", "HUD PIT/AHAR.", "HUD PIT/HIC", "U.S. Department of Housing and Urban Development", "Public download", "CoC or state", "Annual", "Always emit one row per year for the last N HUD PIT years; use CoC data when codes are supplied and state fallback otherwise.", "HUD_PIT_HIC", "CoC-to-county matching requires CoC codes.", "What housing instability is missed?"),
-        indicator_def("HOMELESSNESS_PIT_SHELTERED", "Sheltered homelessness PIT", "Housing Stability", "Sheltered PIT homelessness.", "people", "Sheltered people experiencing homelessness.", "HUD PIT/AHAR.", "HUD PIT/HIC", "U.S. Department of Housing and Urban Development", "Public download", "CoC or state", "Annual", "Always emit one row per year for the last N HUD PIT years; use CoC data when codes are supplied and state fallback otherwise.", "HUD_PIT_HIC", "CoC-to-county matching requires CoC codes.", "What shelter access gaps exist?"),
-        indicator_def("HOMELESSNESS_PIT_UNSHELTERED", "Unsheltered homelessness PIT", "Housing Stability", "Unsheltered PIT homelessness.", "people", "Unsheltered people experiencing homelessness.", "HUD PIT/AHAR.", "HUD PIT/HIC", "U.S. Department of Housing and Urban Development", "Public download", "CoC or state", "Annual", "Always emit one row per year for the last N HUD PIT years; use CoC data when codes are supplied and state fallback otherwise.", "HUD_PIT_HIC", "CoC-to-county matching requires CoC codes.", "What unsheltered homelessness is missed?"),
+        indicator_def("HOMELESSNESS_PIT", "People experiencing homelessness", "Housing Stability", "PIT homelessness total.", "people", "People counted as experiencing homelessness on a single night.", "HUD PIT/AHAR.", "HUD PIT/HIC", "U.S. Department of Housing and Urban Development", "HUD API / public download", "CoC or state", "Annual", "Import HUD PIT table data first; fall back to HUD Exchange PopSub reports when the table download is blocked or unparsable. Always emit one row per year for the last N HUD PIT years.", "HUD_PIT_HIC", "CoC-to-county matching requires CoC codes.", "What housing instability is missed?"),
+        indicator_def("HOMELESSNESS_PIT_SHELTERED", "Sheltered homelessness PIT", "Housing Stability", "Sheltered PIT homelessness.", "people", "Sheltered people experiencing homelessness.", "HUD PIT/AHAR.", "HUD PIT/HIC", "U.S. Department of Housing and Urban Development", "HUD API / public download", "CoC or state", "Annual", "Import HUD PIT table data first; fall back to HUD Exchange PopSub reports when the table download is blocked or unparsable. Always emit one row per year for the last N HUD PIT years.", "HUD_PIT_HIC", "CoC-to-county matching requires CoC codes.", "What shelter access gaps exist?"),
+        indicator_def("HOMELESSNESS_PIT_UNSHELTERED", "Unsheltered homelessness PIT", "Housing Stability", "Unsheltered PIT homelessness.", "people", "Unsheltered people experiencing homelessness.", "HUD PIT/AHAR.", "HUD PIT/HIC", "U.S. Department of Housing and Urban Development", "HUD API / public download", "CoC or state", "Annual", "Import HUD PIT table data first; fall back to HUD Exchange PopSub reports when the table download is blocked or unparsable. Always emit one row per year for the last N HUD PIT years.", "HUD_PIT_HIC", "CoC-to-county matching requires CoC codes.", "What unsheltered homelessness is missed?"),
         indicator_def("MENTAL_HEALTH_HPSA", "Mental Health HPSA designations", "Workforce and Provider Availability", "Mental health shortage designations in the service geography.", "designations", "Count of active mental health HPSA records matching the geography.", "HRSA mental health HPSA CSV.", "HRSA Data Warehouse", "Health Resources and Services Administration", "Automated public download", "County/service area", "Daily", "Download HRSA Mental Health HPSA CSV and count matching active records.", "HRSA_DATA_WAREHOUSE", "HPSA boundaries may not align exactly to county.", "Which workforce shortages affect access?", "Yes", "Yes", "No"),
         indicator_def("TREATMENT_FACILITIES_MH", "Mental health treatment facilities", "Treatment Facilities and Service Infrastructure", "Mental health facility availability.", "facilities", "Count of facility records.", "SAMHSA FindTreatment API.", "SAMHSA FindTreatment", "Substance Abuse and Mental Health Services Administration", "API", "County or radius", "Ongoing", "Use FindTreatment API with county/radius search and sType=mh.", "SAMHSA_FINDTREATMENT", "Listings may not reflect capacity.", "Which services are actually available?", "Yes", "Yes", "No"),
         indicator_def("TREATMENT_FACILITIES_SUD", "SUD treatment facilities and MOUD availability", "Treatment Facilities and Service Infrastructure", "SUD/MOUD facility availability.", "facilities", "Count of facility records.", "SAMHSA FindTreatment API.", "SAMHSA FindTreatment", "Substance Abuse and Mental Health Services Administration", "API", "County or radius", "Ongoing", "Use FindTreatment API with county/radius search and sType=sa; MOUD services counted when coded.", "SAMHSA_FINDTREATMENT", "Listings may not reflect capacity.", "Where are SUD level-of-care gaps?", "Yes", "Yes", "No"),
@@ -1175,14 +1214,17 @@ def hud_year_range(config: RunConfig) -> list[int]:
 def find_hud_pit_links(config: RunConfig, errors: list[str], notes: list[str]) -> list[str]:
     if config.hud_pit_url:
         return [config.hud_pit_url]
+    direct_links = [HUD_PIT_COC_XLSB_URL if config.hud_coc_codes else HUD_PIT_STATE_XLSB_URL]
+    if config.hud_coc_codes:
+        direct_links.append(HUD_PIT_STATE_XLSB_URL)
     html = cached_get_text("hud_ahar", HUD_AHAR_2025_PAGE, errors=errors, record_error=False)
     if not html:
         notes.append("Could not read HUD AHAR page to discover PIT file links.")
-        return []
+        return direct_links
     links = re.findall(r'href=["\']([^"\']+)["\']', html, flags=re.IGNORECASE)
     abs_links = [urljoin(HUD_AHAR_2025_PAGE, link) for link in links]
     desired = "coc" if config.hud_coc_codes else "state"
-    candidates = []
+    candidates = list(direct_links)
     for link in abs_links:
         lower = link.lower()
         if not any(ext in lower for ext in [".xlsx", ".xlsb", ".csv"]):
@@ -1199,7 +1241,11 @@ def find_hud_pit_links(config: RunConfig, errors: list[str], notes: list[str]) -
             lower = link.lower()
             if any(ext in lower for ext in [".xlsx", ".xlsb", ".csv"]) and "state" in lower and ("point" in lower or "pit" in lower or "estimates" in lower):
                 candidates.append(link)
-    return candidates[:4]
+    deduped = []
+    for link in candidates:
+        if link not in deduped:
+            deduped.append(link)
+    return deduped[:6]
 
 
 def row_matches_hud_geo(row: pd.Series, config: RunConfig, state_fallback: bool = False) -> bool:
@@ -1282,8 +1328,7 @@ def parse_hud_frames(frames: list[pd.DataFrame], config: RunConfig, source_url: 
     return out
 
 
-def extract_hud_homelessness(config: RunConfig, errors: list[str], notes: list[str]) -> list[Observation]:
-    log_step("Starting HUD PIT homelessness annual-series extraction")
+def extract_hud_pit_table_series(config: RunConfig, errors: list[str], notes: list[str]) -> list[Observation]:
     frames: list[pd.DataFrame] = []
     source = HUD_AHAR_2025_PAGE
     if config.hud_pit_file:
@@ -1296,18 +1341,141 @@ def extract_hud_homelessness(config: RunConfig, errors: list[str], notes: list[s
     else:
         for link in find_hud_pit_links(config, errors, notes):
             filename_hint = Path(link.split("?")[0]).name or None
-            path = download_file("hud_pit", link, errors, filename_hint=filename_hint)
+            path = download_file("hud_pit", link, errors, filename_hint=filename_hint, record_error=False, max_retries=1)
             if path:
                 frames = read_any_table_file(path, errors, notes)
                 source = link
                 if frames:
                     break
+
+    if not frames:
+        notes.append("HUD PIT table import did not return a readable table; falling back to HUD Exchange PopSub reports.")
+        return []
+
+    observations = parse_hud_frames(frames, config, source, state_fallback=False, notes=notes)
+    if config.hud_coc_codes and all(o.estimate is None for o in observations):
+        notes.append("HUD PIT table CoC parsing produced no numeric values; retrying with state fallback.")
+        observations = parse_hud_frames(frames, config, source, state_fallback=True, notes=notes)
+    if all(o.estimate is None for o in observations):
+        notes.append("HUD PIT table parsed but did not produce numeric homelessness estimates; falling back to HUD Exchange PopSub reports.")
+        return []
+    notes.append(f"HUD PIT table import populated homelessness estimates from {source}.")
+    return observations
+
+
+def hud_exchange_popsub_url(config: RunConfig, year: int, coc_code: Optional[str] = None) -> str:
+    if coc_code:
+        return f"{HUD_EXCHANGE_POPSUB_BASE}/CoC_PopSub_CoC_{coc_code}-{year}_{config.state_abbr}_{year}.pdf"
+    return f"{HUD_EXCHANGE_POPSUB_BASE}/CoC_PopSub_State_{config.state_abbr}_{year}.pdf"
+
+
+def parse_hud_popsub_number(value: Optional[str]) -> Optional[float]:
+    if value is None:
+        return None
+    normalized = value.strip().replace("\u2014", "-")
+    if normalized in {"", "-", "--"}:
+        return None
+    return safe_float(normalized)
+
+
+def parse_hud_popsub_total_homeless(text: str) -> Optional[dict[str, Optional[float]]]:
+    number_or_dash = r"(?:[0-9,]+|[-\u2014]+)"
+    label_first = re.search(
+        rf"Total\s+Homeless\s+Persons\s+({number_or_dash})\s+({number_or_dash})\s+({number_or_dash})\s+({number_or_dash})",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if label_first:
+        emergency_shelter = parse_hud_popsub_number(label_first.group(1))
+        transitional_housing = parse_hud_popsub_number(label_first.group(2))
+        unsheltered = parse_hud_popsub_number(label_first.group(3))
+        total = parse_hud_popsub_number(label_first.group(4))
+    else:
+        split_table = re.search(
+            rf"({number_or_dash})\s+({number_or_dash})\s*Total\s+Homeless\s+Persons\s+({number_or_dash})\s+({number_or_dash})",
+            text,
+            flags=re.IGNORECASE,
+        )
+        if not split_table:
+            return None
+        unsheltered = parse_hud_popsub_number(split_table.group(1))
+        total = parse_hud_popsub_number(split_table.group(2))
+        emergency_shelter = parse_hud_popsub_number(split_table.group(3))
+        transitional_housing = parse_hud_popsub_number(split_table.group(4))
+    sheltered = sum_values([emergency_shelter, transitional_housing])
+    if total is None and sheltered is not None and unsheltered is not None:
+        total = sheltered + unsheltered
+    if total is None and sheltered is None and unsheltered is None:
+        return None
+    if total is not None and sheltered is not None and unsheltered is not None and not math.isclose(total, sheltered + unsheltered):
+        return None
+    return {
+        "HOMELESSNESS_PIT": total,
+        "HOMELESSNESS_PIT_SHELTERED": sheltered,
+        "HOMELESSNESS_PIT_UNSHELTERED": unsheltered,
+    }
+
+
+def extract_hud_exchange_popsub_pdf_series(config: RunConfig, errors: list[str], notes: list[str], state_fallback: bool) -> list[Observation]:
+    years = hud_year_range(config)
+    indicators = ["HOMELESSNESS_PIT", "HOMELESSNESS_PIT_SHELTERED", "HOMELESSNESS_PIT_UNSHELTERED"]
+    values: dict[tuple[str, int], list[float]] = {(indicator, year): [] for indicator in indicators for year in years}
+    contexts: dict[tuple[str, int], list[str]] = {(indicator, year): [] for indicator in indicators for year in years}
+    source_urls: list[str] = []
+    coc_codes = [] if state_fallback else config.hud_coc_codes
+
+    for year in years:
+        urls = [hud_exchange_popsub_url(config, year, coc) for coc in coc_codes] if coc_codes else [hud_exchange_popsub_url(config, year)]
+        for url in urls:
+            filename_hint = Path(url).name
+            path = download_file("hud_popsub", url, errors, filename_hint=filename_hint, record_error=False, max_retries=1)
+            if not path:
+                continue
+            text = read_pdf_text(path, errors, notes)
+            if not text:
+                continue
+            parsed = parse_hud_popsub_total_homeless(text)
+            if not parsed:
+                notes.append(f"HUD Exchange PopSub PDF did not contain a parsable Total Homeless Persons line: {url}")
+                continue
+            source_urls.append(url)
+            for indicator, estimate in parsed.items():
+                if estimate is not None:
+                    values[(indicator, year)].append(estimate)
+                    contexts[(indicator, year)].append(f"{Path(url).name}: Total Homeless Persons")
+
     observations: list[Observation] = []
-    if frames:
-        observations = parse_hud_frames(frames, config, source, state_fallback=False, notes=notes)
+    geo_type = "State fallback" if state_fallback or not config.hud_coc_codes else "CoC aggregate"
+    geo_name = state_name_from_fips(config.state_fips) if state_fallback or not config.hud_coc_codes else ", ".join(config.hud_coc_codes)
+    source_ref = "; ".join(sorted(set(source_urls))) if source_urls else HUD_EXCHANGE_POPSUB_BASE
+    for year in years:
+        for indicator in indicators:
+            nums = values.get((indicator, year), [])
+            estimate = sum(nums) if nums else None
+            note = "HUD Exchange CoC Homeless Populations and Subpopulations PDF fallback. "
+            if estimate is None:
+                note += "No matching PDF value parsed for this year; row emitted so HUD series is complete."
+            elif config.hud_coc_codes and not state_fallback:
+                note += "Values summed across provided CoC codes; sheltered equals Emergency Shelter plus Transitional Housing from HUD report."
+            else:
+                note += "State-level PDF fallback used; sheltered equals Emergency Shelter plus Transitional Housing from HUD report."
+            observations.append(make_observation(indicator_id=indicator, geography_name=geo_name or config.service_area_name, geography_type=geo_type, state_fips=config.state_fips, county_fips=config.county_fips if config.hud_coc_codes and not state_fallback else "", year_or_period=str(year), source_latest_year_or_period=str(config.hud_year), estimate=estimate, moe=None, numerator=estimate, denominator=None, source_variable_label="; ".join(contexts.get((indicator, year), [])) or f"HUD Exchange PopSub PDF {year}", stratification=f"{config.annual_years}-year HUD PIT annual series", comparison_available="Partial", data_quality_note=note, source_url_or_endpoint=source_ref))
+    return observations
+
+
+def extract_hud_homelessness(config: RunConfig, errors: list[str], notes: list[str]) -> list[Observation]:
+    log_step("Starting HUD PIT homelessness annual-series extraction")
+    observations = extract_hud_pit_table_series(config, errors, notes)
+    if observations:
+        return observations
+
+    source = HUD_EXCHANGE_POPSUB_REPORTS_PAGE
+    if not observations or all(o.estimate is None for o in observations):
+        notes.append("Trying HUD Exchange Homeless Populations and Subpopulations PDF fallback.")
+        observations = extract_hud_exchange_popsub_pdf_series(config, errors, notes, state_fallback=False)
         if config.hud_coc_codes and all(o.estimate is None for o in observations):
-            notes.append("HUD CoC parsing produced no numeric values; retrying with state fallback.")
-            observations = parse_hud_frames(frames, config, source, state_fallback=True, notes=notes)
+            notes.append("HUD Exchange CoC PDF fallback produced no numeric values; retrying with state PDF fallback.")
+            observations = extract_hud_exchange_popsub_pdf_series(config, errors, notes, state_fallback=True)
     if not observations:
         # Always emit the annual HUD rows even if download/parse fails.
         for year in hud_year_range(config):

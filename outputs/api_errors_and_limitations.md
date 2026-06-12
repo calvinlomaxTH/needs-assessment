@@ -10,7 +10,6 @@
 
 ## Run notes
 
-- Could not read HUD AHAR page to discover PIT file links.
 - SAMHSA exact county search requires FindTreatment county ID or coordinates; using state search with county-name filtering.
 
 ## Captured errors

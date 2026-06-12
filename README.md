@@ -26,7 +26,7 @@ The workflow currently uses best-effort pulls from:
 - BLS Local Area Unemployment Statistics for annual unemployment.
 - CDC PLACES for modeled behavioral and physical health prevalence indicators.
 - CDC MIVO County data for suicide and drug overdose mortality counts/rates.
-- HUD AHAR/PIT data for homelessness indicators.
+- HUD AHAR/PIT API-style table files for homelessness indicators, with HUD Exchange PopSub report fallback when HUDUSER blocks table downloads.
 - HRSA Data Warehouse shortage area downloads for Mental Health HPSA indicators.
 - SAMHSA FindTreatment API for mental health and substance use treatment facility counts.
 - NCES CCD data through the Urban Institute Education Data API for school enrollment.
@@ -40,7 +40,7 @@ Use Python 3.10 or newer.
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-pip install requests pandas openpyxl pyxlsb
+pip install requests pandas openpyxl pyxlsb pypdf
 ```
 
 A Census API key is recommended. Provide it through an environment variable:
@@ -79,7 +79,7 @@ The script prints the output directory and row counts when it finishes.
 - `--latest` asks the script to use the most recent available ACS endpoints.
 - `--years` can be used instead of `--latest` for explicit ACS years.
 - `--annual-years` controls annual series length for indicators such as HUD PIT, suicide/overdose mortality, unemployment, and uninsured.
-- `--hud-coc-codes` improves HUD PIT matching when the service area maps to known Continuums of Care.
+- `--hud-coc-codes` improves HUD PIT matching when the service area maps to known Continuums of Care. The HUD adapter tries the machine-readable PIT table first and falls back to HUD Exchange PopSub reports if needed.
 - `--hud-pit-file` or `--hud-pit-url` can supply a PIT file directly if HUD link discovery fails.
 - `--hrsa-hpsa-file` or `--hrsa-hpsa-url` can supply HRSA shortage area data directly.
 - `--samhsa-lat`, `--samhsa-lon`, and `--samhsa-radius-miles` enable radius-based SAMHSA facility searches.

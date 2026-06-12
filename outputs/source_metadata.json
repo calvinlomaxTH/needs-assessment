@@ -1,5 +1,5 @@
 {
-  "retrieved_at": "2026-06-11T20:56:48.050523+00:00",
+  "retrieved_at": "2026-06-11T21:38:39.553092+00:00",
   "run_config": {
     "state_fips": "17",
     "county_fips": "031",
@@ -134,7 +134,6 @@
     }
   ],
   "notes": [
-    "Could not read HUD AHAR page to discover PIT file links.",
     "SAMHSA exact county search requires FindTreatment county ID or coordinates; using state search with county-name filtering."
   ],
   "errors": [],
